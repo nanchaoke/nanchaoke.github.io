@@ -105,7 +105,8 @@ theme: icarus
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repository: https://github.com/nanchaoke/nanchaoke.github.io
+  # repository: https://github.com/nanchaoke/nanchaoke.github.io
+  repository: git@nanchao.github.com:nanchaoke/nanchaoke.github.io.git
   branch: master
   - type: baidu_url_submitter
 
