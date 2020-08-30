@@ -13,8 +13,8 @@ timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://godread.cn
-root: /
+url: https://nanchaoke.github.io/nanchaoke.github.io
+root: /nanchaoke.github.io/
 # permalink: :year/:month/:day/:title/
 permalink: :title.html
 permalink_defaults:
@@ -106,13 +106,5 @@ theme: icarus
 deploy:
   type: git
   # repository: https://github.com/nanchaoke/nanchaoke.github.io
-  repository: git@nanchao.github.com:nanchaoke/nanchaoke.github.io.git
+  repository: git@github.com:nanchaoke/nanchaoke.github.io.git
   branch: master
-  - type: baidu_url_submitter
-
-# 百度自动推送链接
-baidu_url_submit:
-  count: 100 # 提交最新的一个链接
-  host: www.godread.cn # 在百度站长平台中注册的域名
-  token: 8OGYpxowYnhgVsUM # 请注意这是您的秘钥， 所以请不要把博客源代码发布在公众仓库里!
-  path: baidu_urls.txt # 文本文档的地址， 新链接会保存在此文本文档里

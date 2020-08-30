@@ -335,6 +335,3 @@ providers:
     fontcdn: loli
     # Name or URL of the fontawesome icon font CDN provider
     iconcdn: loli
-
-# 百度自动推送
-baidu_push: true
