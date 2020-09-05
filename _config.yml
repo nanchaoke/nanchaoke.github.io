@@ -14,9 +14,12 @@ timezone: Asia/Shanghai
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: https://nanchaoke.github.io/nanchaoke.github.io
-root: /nanchaoke.github.io/
+root: /
 # permalink: :year/:month/:day/:title/
-permalink: :title.html
+permalink: :abbrlink.html
+abbrlink:
+    alg: crc32   #算法： crc16(default) and crc32
+    rep: hex     #进制： dec(default) and hex
 permalink_defaults:
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
