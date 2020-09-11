@@ -78,7 +78,7 @@ module.exports = class extends Component {
                             </span> : null}
                             {/* Visitor counter */}
                             {!index && plugins && plugins.busuanzi === true ? <span class="level-item" id="busuanzi_container_page_pv" dangerouslySetInnerHTML={{
-                                __html: _p('plugin.visit_count', '<span id="busuanzi_value_page_pv">0</span>')
+                                __html: _p('plugin.visit_count', '<span id="busuanzi_value_page_pv">0</span> ')
                             }}></span> : null}
                         </div>
                     </div> : null}

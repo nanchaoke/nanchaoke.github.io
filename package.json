@@ -30,5 +30,8 @@
     "hexo-tag-dplayer": "^0.3.3",
     "inferno": "^7.3.3",
     "inferno-create-element": "^7.3.3"
+  },
+  "devDependencies": {
+    "hexo-related-popular-posts": "^5.0.1"
   }
 }
