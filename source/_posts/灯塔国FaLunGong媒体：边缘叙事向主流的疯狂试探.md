@@ -8,7 +8,7 @@ tags:
   - 川普
 toc: true
 author: 南朝客
-priority: 2
+priority: 4
 abbrlink: 82e8962b
 ---
 
@@ -117,3 +117,17 @@ abbrlink: 82e8962b
 最后来欣赏一下 FaLunGong 在纽约州北部的精神总部龙泉山庄——Otisville 宫殿群吧。在纽约时报解读大鸡院及其影响力制造过程的文章中，这张图显得颇具幽默感。
 
 ![](http://write.godread.cn/dengtaguo/longquanshanzhuang.jpg)
+
+<br>
+
+<br>
+
+> 公众号｜南朝客
+>
+> 新浪微博｜Mr南朝客
+>
+> 网站｜godread.cn
+
+
+
+![扫码关注微信公众号“南朝客”](http://write.godread.cn/permanent/wxsearch-nck.jpg)
