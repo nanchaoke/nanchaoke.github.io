@@ -1,6 +1,6 @@
 ---
 title: 灯塔国FaLunGong媒体：边缘叙事向主流的疯狂试探
-categaries:
+categories:
   - 时论浅谈
 tags:
   - 美国
@@ -8,9 +8,8 @@ tags:
   - 川普
 toc: true
 author: 南朝客
-priority: 4
+priority: 1
 abbrlink: 82e8962b
-date: 2020-10-27 19:33:12
 ---
 
 > 全球性虚假信息集散地，是如何向主流靠近的？
