@@ -75,7 +75,9 @@ navbar:
     menu:
         首页: /
         时论浅谈: /categories/时论浅谈
-        历史: /categories/历史
+        史话史说: /categories/史话史说
+        读书小札: /categories/读书小札
+        无常小记: /categories/无常小记
         # Archives: /archives
         # Categories: /categories
         # Tags: /tags
