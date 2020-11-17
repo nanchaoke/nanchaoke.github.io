@@ -122,11 +122,9 @@ abbrlink: 82e8962b
 
 <br>
 
-> 公众号｜南朝客
+> 公众号｜南朝客（NanChaoKe）
 >
-> 微博｜Mr南朝客
->
-> 网站｜godread.cn
+> 微博｜<a href="https://weibo.com/u/2821715870">Mr南朝客</a>
 
 
 
