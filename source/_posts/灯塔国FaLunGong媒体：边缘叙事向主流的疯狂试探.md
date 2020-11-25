@@ -8,7 +8,7 @@ tags:
   - 川普
 toc: true
 author: 南朝客
-priority: 2
+priority: 1
 abbrlink: 82e8962b
 ---
 
