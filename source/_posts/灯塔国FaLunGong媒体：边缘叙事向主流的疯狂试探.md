@@ -10,6 +10,7 @@ toc: true
 author: 南朝客
 priority: 1
 abbrlink: 82e8962b
+thumbnail: http://write.godread.cn/dengtaguo/airenlian.png
 ---
 
 > 全球性虚假信息集散地，是如何向主流靠近的？
