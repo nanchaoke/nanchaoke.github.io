@@ -84,4 +84,4 @@ date: 2020-07-14 17:12:00
 
 
 
-![扫码关注微信公众号“南朝客”](http://write.godread.cn/permanent/wxwbwzgzt.png)
+![扫码关注微信公众号“南朝客”](http://write.godread.cn/permanent/wxwbwz.png)

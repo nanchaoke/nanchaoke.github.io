@@ -128,4 +128,4 @@ abbrlink: 82e8962b
 
 
 
-![扫码关注微信公众号“南朝客”](http://write.godread.cn/permanent/wxwbwzgzt.png)
+![扫码关注微信公众号“南朝客”](http://write.godread.cn/permanent/wxwbwz.png)
