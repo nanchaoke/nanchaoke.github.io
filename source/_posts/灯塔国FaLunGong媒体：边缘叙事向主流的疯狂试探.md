@@ -169,4 +169,4 @@ thumbnail: http://write.godread.cn/dengtaguo/airenlian.png
 >
 > 微博｜<a href="https://weibo.com/u/2821715870">Mr南朝客</a>
 
-![扫码关注微信公众号“南朝客”](http://write.godread.cn/permanent/wxwbwz.png)
+![关注我 一起品读纵横的世界](http://write.godread.cn/permanent/wxwbwz.png)
