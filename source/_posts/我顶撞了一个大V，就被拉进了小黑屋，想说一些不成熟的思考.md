@@ -86,34 +86,35 @@ abbrlink: aec317c1
 <div>
 	<ul style="margin: 0;">
 		<li style="list-style: none; background: #eef3fc; border-radius: 10px; overflow: hidden; padding: 1rem; margin-bottom: 1rem; cursor: pointer;">
-			<a style="float: left; width: 84%; text-decoration: none;" href="https://mp.weixin.qq.com/s?__biz=MzIzNDE5MTQ4Mw==&mid=2655637670&idx=1&sn=7981e73e821d0d37f4419097c59c1b19&chksm=f3475fb2c430d6a403892ee948cdcdd2e3e417ffe7b7045fd272f9800878dd22a440dfec902f&token=1337939405&lang=zh_CN#rd" target="_blank">
-				<span style="width: 100%; color: #444;font-weight: bold;">世界上有一种火上浇油叫“莫里森式道歉”</span>
-				<span style="width: 100%; float: left; color: #777; font-size: 14px; line-height: 1.6rem; padding-top: .5rem;">一副漫画刺痛了虚伪的普世价值，而爆炸的舆论是爆破野蛮的“人权武器”与“正义担当”的窗口。</span>
+			<a style="float: left; width: 70%; text-decoration: none;" href="https://mp.weixin.qq.com/s?__biz=MzIzNDE5MTQ4Mw==&mid=2655637670&idx=1&sn=7981e73e821d0d37f4419097c59c1b19&chksm=f3475fb2c430d6a403892ee948cdcdd2e3e417ffe7b7045fd272f9800878dd22a440dfec902f&token=1337939405&lang=zh_CN#rd" target="_blank">
+				<span style="width: 100%; color: #444;font-weight: bold; display: inline-block; line-height: 1.4rem;">世界上有一种火上浇油叫“莫里森式道歉”</span>
+				<span style="width: 100%; float: left; color: #777; font-size: 14px; line-height: 1rem;">mp.weixin.qq.com</span>
 			</a>
-            <img style="width: 13%; border-radius: 10px; float: right; margin-top: .4rem;" src="https://write.godread.cn/molisenshidaoqian/tupochuangkou.jpg"/>
+            <img style="max-width: 25%; height: 70px; border-radius: 10px; float: right; margin-top: .2rem;" src="https://write.godread.cn/molisenshidaoqian/tupochuangkou.jpg"/>
 		</li>
         <li style="list-style: none; background: #eef3fc; border-radius: 10px; overflow: hidden; padding: 1rem; margin-bottom: 1rem; cursor: pointer;">
-			<a style="float: left; width: 84%; text-decoration: none;" href="https://mp.weixin.qq.com/s?__biz=MzIzNDE5MTQ4Mw==&mid=2655637622&idx=1&sn=c250851530fe9ac44130b35152997491&chksm=f3475f62c430d674dfdbb691054f0a2ea7a2426c5b18598243f07648822dcec5e7c80f3da361&token=1565060228&lang=zh_CN#rd" target="_blank">
-				<span style="width: 100%; color: #444;font-weight: bold;">小米高管“得屌丝者得天下”实际是群体话语权鄙视</span>
-				<span style="width: 100%; float: left; color: #777; font-size: 14px; line-height: 1.6rem; padding-top: .5rem;">中国的“屌丝”与日本的“平成废物”是一样的，都是社会鄙视链的一环。</span>
+			<a style="float: left; width: 100%; text-decoration: none;" href="https://mp.weixin.qq.com/s?__biz=MzIzNDE5MTQ4Mw==&mid=2655637622&idx=1&sn=c250851530fe9ac44130b35152997491&chksm=f3475f62c430d674dfdbb691054f0a2ea7a2426c5b18598243f07648822dcec5e7c80f3da361&token=1565060228&lang=zh_CN#rd" target="_blank">
+				<span style="width: 100%; color: #444;font-weight: bold; display: inline-block; line-height: 1.4rem;">小米高管“得屌丝者得天下”实际是群体话语权鄙视</span>
+				<span style="width: 100%; float: left; color: #777; font-size: 14px; line-height: 1rem;">mp.weixin.qq.com</span>
 			</a>
 		</li>
 		<li style="list-style: none; background: #eef3fc; border-radius: 10px; overflow: hidden; padding: 1rem; margin-bottom: 1rem; cursor: pointer;">
-			<a style="float: left; width: 84%; text-decoration: none;" href="https://mp.weixin.qq.com/s?__biz=MzIzNDE5MTQ4Mw==&mid=2655637575&idx=1&sn=288fe2e824db1966b7b47b6b986abebd&chksm=f3475f53c430d6450851585a3f6ffa2acb1993b126c9cdba5edeb02e4359700696448b0f825b&token=1565060228&lang=zh_CN#rd" target="_blank">
-				<span style="width: 100%; color: #444;font-weight: bold;">公知们说要有“底线思维”，那吹嘘拜登能不能也有个底线？</span>
-				<span style="width: 100%; float: left; color: #777; font-size: 14px; line-height: 1.6rem; padding-top: .5rem;">最近看到好多人谈“底线思维”，某些大V更是将它暗藏在对美国的无限憧憬之中，让人头皮发麻。</span>
+			<a style="float: left; width: 70%; text-decoration: none;" href="https://mp.weixin.qq.com/s?__biz=MzIzNDE5MTQ4Mw==&mid=2655637575&idx=1&sn=288fe2e824db1966b7b47b6b986abebd&chksm=f3475f53c430d6450851585a3f6ffa2acb1993b126c9cdba5edeb02e4359700696448b0f825b&token=1565060228&lang=zh_CN#rd" target="_blank">
+				<span style="width: 100%; color: #444;font-weight: bold; display: inline-block; line-height: 1.4rem;">公知们说要有“底线思维”，那吹嘘拜登能不能也有个底线？</span>
+				<span style="width: 100%; float: left; color: #777; font-size: 14px; line-height: 1.6rem; padding-top: .5rem;">mp.weixin.qq.com</span>
 			</a>
-			<img style="width: 13%; border-radius: 10px; float: right; margin-top: .4rem;" src="http://write.godread.cn/gongzhishuo/baideng.jpg"/> 
+			<img style="max-width: 25%; height: 70px; border-radius: 10px; float: right; margin-top: .2rem;" src="http://write.godread.cn/gongzhishuo/baideng.jpg"/> 
 		</li>
         <li style="list-style: none; background: #eef3fc; border-radius: 10px; overflow: hidden; padding: 1rem; margin-bottom: 1rem; cursor: pointer;">
-			<a style="float: left; width: 84%; text-decoration: none;" href="https://mp.weixin.qq.com/s?__biz=MzIzNDE5MTQ4Mw==&mid=2655637566&idx=1&sn=7e0f312030f7da28eb07ad986066b8aa&chksm=f3475f2ac430d63ccbf288ffee745c360985e01ecf8d8fc5a3a5da5822d177b7200ad9df9897&token=1337939405&lang=zh_CN#rd" target="_blank">
-				<span style="width: 100%; color: #444;font-weight: bold;">川普大势已去，民主党执政的美国会回到原点吗？</span>
-				<span style="width: 100%; float: left; color: #777; font-size: 14px; line-height: 1.6rem; padding-top: .5rem;">东部摇摆州宾州、佐治亚州已翻蓝，支持者高喊“美国能输，川普不能输！”</span>
+			<a style="float: left; width: 70%; text-decoration: none;" href="https://mp.weixin.qq.com/s?__biz=MzIzNDE5MTQ4Mw==&mid=2655637566&idx=1&sn=7e0f312030f7da28eb07ad986066b8aa&chksm=f3475f2ac430d63ccbf288ffee745c360985e01ecf8d8fc5a3a5da5822d177b7200ad9df9897&token=1337939405&lang=zh_CN#rd" target="_blank">
+				<span style="width: 100%; color: #444;font-weight: bold; display: inline-block; line-height: 1.4rem;">川普大势已去，民主党执政的美国会回到原点吗？</span>
+				<span style="width: 100%; float: left; color: #777; font-size: 14px; line-height: 1rem;">mp.weixin.qq.com</span>
 			</a>
-			<img style="width: 13%; border-radius: 10px; float: right;" src="http://write.godread.cn/chuanpudashi/fanlandongbuzhou.jpg"/> 
+			<img style="max-width: 25%; height: 70px; border-radius: 10px; float: right; margin-top: .2rem;" src="http://write.godread.cn/chuanpudashi/fanlandongbuzhou.jpg"/> 
 		</li>
 	</ul>
 </div>
+
 
 
 <br>
