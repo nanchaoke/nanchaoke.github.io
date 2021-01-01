@@ -8,7 +8,7 @@ tags:
   - 公共权力
 toc: true
 author: 南朝客
-priority: 4
+priority: 2
 thumbnail: https://write.godread.cn/wodingzhuangle/yeman.jpg
 abbrlink: aec317c1
 ---
