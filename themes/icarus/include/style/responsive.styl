@@ -30,10 +30,11 @@
 +mobile()
     .section
         /*padding: 1.5rem 1rem*/
-        padding: 0 1rem 1.5rem
 
     article
         &.article
+            .article-meta
+                margin-bottom .5rem
             .content
                 font-size 17px
                 line-height 2.2rem
@@ -41,6 +42,8 @@
                     font-size 1.1rem
 
     .card
+        .card-image
+            padding 0 1rem 0
         .card-content
             .menu-label
                 font-size 1.1rem
@@ -50,6 +53,21 @@
                         font-size 1.1rem
             .level-left
                 font-size 1rem
+
+    .card + .card, .card + .column-right-shadow
+        margin-top 2rem
                     
     .size-small
         font-size 1rem
+
+    .breadcrumb:not(:last-child), .level:not(:last-child), .list:not(:last-child), .message:not(:last-child), .pagination:not(:last-child), .tabs:not(:last-child), .box:not(:last-child), .content:not(:last-child), .notification:not(:last-child), .progress:not(:last-child), .table:not(:last-child), .table-container:not(:last-child), .title:not(:last-child), .subtitle:not(:last-child), .block:not(:last-child), .highlight:not(:last-child)
+        margin-bottom .6rem
+
+    .pagination
+        margin .5rem
+
+    .is-hidden-mobile
+        display block!important
+
+    .pagination-list li
+        float left
