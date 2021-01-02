@@ -82,8 +82,8 @@ navbar:
         无常小记: /categories/无常小记
         # Archives: /archives
         # Categories: /categories
-        # Tags: /tags
-        # About: /about
+        Tags: /tags
+        About: /about
     # Links to be shown on the right of the navigation bar
     # links:
         # Download on GitHub:
@@ -116,7 +116,7 @@ article:
     # Whether to show thumbnail image for every article
     thumbnail: true
     # Whether to show estimated article reading time
-    readtime: true
+    readtime: false
 
 # Search plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Search/
@@ -264,10 +264,10 @@ widgets:
         # type: categories
        
     # Tags widget configurations
-    -
+    # -
         # Where should the widget be placed, left sidebar or right sidebar
-        position: right
-        type: tags
+        # position: right
+        # type: tags
     # Google FeedBurner email subscription widget configurations
     # -
         # Where should the widget be placed, left sidebar or right sidebar
