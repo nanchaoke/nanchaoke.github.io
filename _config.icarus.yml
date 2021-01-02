@@ -82,8 +82,8 @@ navbar:
         无常小记: /categories/无常小记
         # Archives: /archives
         # Categories: /categories
-        Tags: /tags
-        About: /about
+        # Tags: /tags
+        # About: /about
     # Links to be shown on the right of the navigation bar
     # links:
         # Download on GitHub:
