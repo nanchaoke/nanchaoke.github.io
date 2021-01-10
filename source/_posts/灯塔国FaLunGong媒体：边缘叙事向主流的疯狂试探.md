@@ -10,7 +10,7 @@ toc: true
 author: 南朝客
 priority: 1
 abbrlink: 82e8962b
-thumbnail: http://write.godread.cn/dengtaguo/airenlian.png
+thumbnail: https://wx4.sinaimg.cn/large/a82ff79ely1gk4755qgmaj20rs0fm1kx.jpg
 ---
 
 > 全球性虚假信息集散地，是如何向主流靠近的？
@@ -77,7 +77,7 @@ thumbnail: http://write.godread.cn/dengtaguo/airenlian.png
 
 难以想象的是，在越 nan 版大鸡院的帮助下， FaLunGong 媒体制造了上千个——可能不止这些——虚假账号和页面，其粉丝数量累计 5500 万，它们不仅规模庞大，而且大量使用 AI 技术，制造虚拟人物，自动发布“攻击zg政府”和“支持川川”的内容，这些账号的活动主要操控于一个叫“mei丽人生”的媒体公司，它是由大鸡院前雇员创立的。
 
-![](http://write.godread.cn/dengtaguo/airenlian.png)
+![](https://wx4.sinaimg.cn/large/a82ff79ely1gk4755qgmaj20rs0fm1kx.jpg)
 
 
 
@@ -159,14 +159,14 @@ thumbnail: http://write.godread.cn/dengtaguo/airenlian.png
 
 最后来欣赏一下 FaLunGong 在纽约州北部的精神总部龙泉山庄——Otisville 宫殿群吧。在纽约时报解读大鸡院及其影响力制造过程的文章中，这张图显得颇具幽默感。
 
-![](http://write.godread.cn/dengtaguo/longquanshanzhuang.jpg)
+![](https://wx2.sinaimg.cn/large/a82ff79ely1gk472meq88j212w0otnpe.jpg)
 
 <br>
 
 <br>
 
-> 公众号｜南朝客（NanChaoKe）
->
 > 微博｜<a href="https://weibo.com/u/2821715870">Mr南朝客</a>
+>
+> 公众号｜南朝客（NanChaoKe）
 
-![关注我 一起品读纵横的世界](http://write.godread.cn/permanent/wxwbwz.png)
+![关注我 一起品读纵横的世界](https://wx4.sinaimg.cn/large/a82ff79ely1gl9o9nj9koj20yf0u0wq1.jpg)

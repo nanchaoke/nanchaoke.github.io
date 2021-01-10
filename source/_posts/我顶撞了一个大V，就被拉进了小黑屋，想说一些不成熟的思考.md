@@ -9,8 +9,8 @@ tags:
 toc: true
 author: 南朝客
 priority: 2
-thumbnail: https://write.godread.cn/wodingzhuangle/yeman.jpg
 abbrlink: aec317c1
+thumbnail: https://wx1.sinaimg.cn/large/a82ff79ely1gmisk5aw4vj20hs0a0gmv.jpg
 ---
 
 > 大V对异见的态度让我很不自在。在国内语境下，大V有特殊的意义，尤其在今年，传统公知集体沦陷于对内的宣传上，公知横行又与大V密切相关，我本以为，无论是哪个阵营，有怎样不同的视角与阐述方式，都应对异见者持有保底的默契包容，这是自由与容忍的最低限度。
@@ -90,38 +90,38 @@ abbrlink: aec317c1
 				<span style="width: 100%; color: #444;font-weight: bold; display: inline-block; line-height: 1.6rem;">世界上有一种火上浇油叫“莫里森式道歉”</span>
 				<span style="width: 100%; color: #777; font-size: 14px; line-height: 1rem; position: absolute; left: 1rem; bottom: 1rem;">mp.weixin.qq.com</span>
 			</a>
-            <img style="max-width: 24%; height: 60px; border-radius: 6px; float: right;" src="https://write.godread.cn/molisenshidaoqian/tupochuangkou.jpg"/>
+            <img style="max-width: 24%; height: 60px; border-radius: 6px; float: right;" src="https://wx4.sinaimg.cn/large/a82ff79ely1gl9o1akgl2j20rs0fmtyj.jpg"/>
 		</li>
         <li style="list-style: none; background: #eef3fc; border-radius: 10px; overflow: hidden; padding: 1rem; margin-bottom: 1rem; cursor: pointer; position: relative; min-height: 90px;">
 			<a style="float: left; width: 100%; text-decoration: none;" href="https://mp.weixin.qq.com/s?__biz=MzIzNDE5MTQ4Mw==&mid=2655637622&idx=1&sn=c250851530fe9ac44130b35152997491&chksm=f3475f62c430d674dfdbb691054f0a2ea7a2426c5b18598243f07648822dcec5e7c80f3da361&token=1565060228&lang=zh_CN#rd" target="_blank">
 				<span style="width: 100%; color: #444;font-weight: bold; display: inline-block; line-height: 1.6rem;">小米高管“得屌丝者得天下”实际是群体话语权鄙视</span>
 				<span style="width: 100%; color: #777; font-size: 14px; line-height: 1rem; position: absolute; left: 1rem; bottom: 1rem;">mp.weixin.qq.com</span>
 			</a>
+            <img style="max-width: 24%; height: 60px; border-radius: 6px; float: right;" src="https://wx1.sinaimg.cn/large/a82ff79ely1gl1r49k2ijj20rs0fm7wh.jpg"/>
 		</li>
 		<li style="list-style: none; background: #eef3fc; border-radius: 10px; overflow: hidden; padding: 1rem; margin-bottom: 1rem; cursor: pointer; position: relative; min-height: 90px;">
 			<a style="float: left; width: 73%; text-decoration: none;" href="https://mp.weixin.qq.com/s?__biz=MzIzNDE5MTQ4Mw==&mid=2655637575&idx=1&sn=288fe2e824db1966b7b47b6b986abebd&chksm=f3475f53c430d6450851585a3f6ffa2acb1993b126c9cdba5edeb02e4359700696448b0f825b&token=1565060228&lang=zh_CN#rd" target="_blank">
 				<span style="width: 100%; color: #444;font-weight: bold; display: inline-block; line-height: 1.6rem;">公知们说要有“底线思维”，那吹嘘拜登能不能也有个底线？</span>
 				<span style="width: 100%; color: #777; font-size: 14px; line-height: 1rem;  position: absolute; left: 1rem; bottom: 1rem;">mp.weixin.qq.com</span>
 			</a>
-			<img style="max-width: 24%; height: 60px; border-radius: 6px; float: right;" src="http://write.godread.cn/gongzhishuo/baideng.jpg"/>
+			<img style="max-width: 24%; height: 60px; border-radius: 6px; float: right;" src="https://wx4.sinaimg.cn/large/a82ff79ely1gkrvaznwtdj20rs0fmqqv.jpg"/>
 		</li>
         <li style="list-style: none; background: #eef3fc; border-radius: 10px; overflow: hidden; padding: 1rem; margin-bottom: 1rem; cursor: pointer; position: relative; min-height: 90px;">
 			<a style="float: left; width: 73%; text-decoration: none;" href="https://mp.weixin.qq.com/s?__biz=MzIzNDE5MTQ4Mw==&mid=2655637566&idx=1&sn=7e0f312030f7da28eb07ad986066b8aa&chksm=f3475f2ac430d63ccbf288ffee745c360985e01ecf8d8fc5a3a5da5822d177b7200ad9df9897&token=1337939405&lang=zh_CN#rd" target="_blank">
 				<span style="width: 100%; color: #444;font-weight: bold; display: inline-block; line-height: 1.6rem;">川普大势已去，民主党执政的美国会回到原点吗？</span>
 				<span style="width: 100%; color: #777; font-size: 14px; line-height: 1rem; position: absolute; left: 1rem; bottom: 1rem;">mp.weixin.qq.com</span>
 			</a>
-			<img style="max-width: 24%; height: 60px; border-radius: 6px; float: right;" src="http://write.godread.cn/chuanpudashi/fanlandongbuzhou.jpg"/> 
+			<img style="max-width: 24%; height: 60px; border-radius: 6px; float: right;" src="https://wx4.sinaimg.cn/large/a82ff79ely1gkgf38dnu4j20pf0ea1kx.jpg"/> 
 		</li>
 	</ul>
 </div>
 
-
 <br>
 
 <br>
 
-> 公众号｜南朝客（NanChaoKe）
->
 > 微博｜<a href="https://weibo.com/u/2821715870">Mr南朝客</a>
+>
+> 公众号｜南朝客（NanChaoKe）
 
-![关注我 一起品读纵横的世界](http://write.godread.cn/permanent/wxwbwz.png)
+![关注我 一起品读纵横的世界](https://wx4.sinaimg.cn/large/a82ff79ely1gl9o9nj9koj20yf0u0wq1.jpg)

@@ -4,12 +4,12 @@ version: 4.0.0
 variant: default
 # Path or URL to the website's logo
 # logo: /img/Godread-long.png
-logo: https://write.godread.cn/permanent/Godread-long.png
+logo: /img/Godread-long.png
 # Page metadata configurations
 head:
     # URL or path to the website's icon
     # favicon: /img/Godread-favicon-nobg.png
-    favicon: https://write.godread.cn/permanent/godread_favicon_transparent.ico
+    favicon: /img/Godread-favicon-nobg.png
     # Open Graph metadata
     # https://hexo.io/docs/helpers.html#open-graph
     open_graph:
@@ -148,7 +148,7 @@ donates:
     -
         type: alipay
         # Alipay qrcode image URL
-        qrcode: 'http://write.godread.cn/permanent/zfb-pay.jpg'
+        qrcode: '/img/zfb-pay.jpg'
     # "Buy me a coffee" donate button configurations
     # -
         # type: buymeacoffee
@@ -170,7 +170,7 @@ donates:
     -
         type: wechat
         # Wechat qrcode image URL
-        qrcode: 'http://write.godread.cn/permanent/wx-pay.jpg'
+        qrcode: '/img/wx-pay.jpg'
 # Share plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Share/
 share:
