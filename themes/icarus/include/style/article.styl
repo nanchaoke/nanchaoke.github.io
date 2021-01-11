@@ -90,10 +90,12 @@ article
                 border-top 1px solid #d3d3d3
                 margin 5rem auto
 
+        .guanzhushengming
+            padding 1rem 0 2rem
+
         .guanzhuwo
             width 60%
             margin auto
-            margin-bottom 1.5rem
         @media screen and (max-width: 767px)
             .guanzhuwo
                 width  100%
@@ -101,8 +103,9 @@ article
         .shengming
             font-size 14px
             border-top 1px solid #e0e0e0
-            padding-top 1rem
-            margin-top 1rem
+            border-bottom 1px solid #e0e0e0
+            padding 1rem 0
+            margin 1rem 0
             line-height 1.8
             color #888
 
@@ -161,6 +164,7 @@ article
         .menu
             &>ul
                 border-left: 1px solid #ddd
+                margin-left: 4px
                 &>li::before
                     position: relative
                     top: 0
@@ -171,17 +175,31 @@ article
                     content: ''
                     border-radius: 50%
                     background-color: #eb5055
-.menu-list li
-    position: relative
-    top: 15px
+
+.menu-list li ul
+    border: none
+    padding: 0
+    li
+        margin-bottom: .75rem
 
 .menu-list a
     margin-left: .5rem
-    position: relative
-    top: -22px
+    margin: -1.1rem 0 0 .5rem
+    padding: 0 0 1rem .5rem
+
+.menu-list a.is-active, .menu-list a:hover
+    background: none
+    color: #eb5055
 
 .column.column-right.is-4-tablet.is-4-desktop.is-4-widescreen.order-3.is-sticky
     position: fixed
     top: 5rem
     right: 9%
+    z-index: 100
     width: 240px
+
+.pinglunjuli
+    margin-bottom: 5rem!important
+@media screen and (max-width: 767px)
+    .pinglunjuli
+        margin-bottom: 3rem!important

@@ -116,7 +116,7 @@ article:
     # Whether to show thumbnail image for every article
     thumbnail: true
     # Whether to show estimated article reading time
-    readtime: false
+    readtime: true
 
 # Search plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Search/

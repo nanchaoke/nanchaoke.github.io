@@ -87,11 +87,7 @@ module.exports = class extends Component {
                     
 
                     {/* Tags */}
-                    {!index && page.tags && page.tags.length ? <div>
-                        <div class="guanzhuwo">
-                            <img src="https://tva1.sinaimg.cn/large/a82ff79ely1gmjlobwt2dj21360y5jyr.jpg" alt="关注我，一起品读纵横的世界" title="关注我，一起品读纵横的世界" />
-                        </div>
-
+                    {!index && page.tags && page.tags.length ? <div class="guanzhushengming">
                         <div class="article-tags size-small mb-4">
                             <span class="mr-2">#</span>
                             {page.tags.map(tag => {
@@ -106,7 +102,11 @@ module.exports = class extends Component {
                                 微博：<a href="https://weibo.com/u/2821715870" target="_blank">Mr南朝客</a>，公众号：南朝客（NanChaoKe）
                             </p>
                         </div>
-                    </div> : null}                    
+
+                        {article && article.readtime && article.readtime === true ? <div class="guanzhuwo">
+                            <img src="https://tva1.sinaimg.cn/large/a82ff79ely1gmjlobwt2dj21360y5jyr.jpg" alt="关注我，一起品读纵横的世界" title="关注我，一起品读纵横的世界" />
+                        </div> : null}
+                    </div> : null}
 
                     {/* "Read more" button */}
                     {index && page.excerpt ? <a class="article-more button is-small size-small" href={`${url_for(page.link || page.path)}#more`}>{__('article.more')}</a> : null}
@@ -117,7 +117,7 @@ module.exports = class extends Component {
             {/* Donate button */}
             {!index ? <Donates config={config} helper={helper} /> : null}
             {/* Post navigation */}
-            {!index && (page.prev || page.next) ? <nav class="post-navigation mt-4 level is-mobile">
+            {!index && (page.prev || page.next) ? <nav class="post-navigation mt-4 level is-mobile pinglunjuli">
                 {page.prev ? <div class="level-start">
                     <a class={`article-nav-prev level level-item${!page.prev ? ' is-hidden-mobile' : ''} link-muted`} href={url_for(page.prev.path)}>
                         <i class="level-item fas fa-chevron-left"></i>
