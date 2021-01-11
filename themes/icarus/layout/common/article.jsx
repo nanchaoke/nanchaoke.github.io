@@ -80,17 +80,34 @@ module.exports = class extends Component {
                             }}></span> : null}
                         </div>
                     </div> : null}
-
                     
                     {/* Content/Excerpt */}
                     <div class="content" dangerouslySetInnerHTML={{ __html: index && page.excerpt ? page.excerpt : page.content }}></div>
+
+                    
+
                     {/* Tags */}
-                    {!index && page.tags && page.tags.length ? <div class="article-tags size-small mb-4">
-                        <span class="mr-2">#</span>
-                        {page.tags.map(tag => {
-                            return <a class="link-muted mr-2" rel="tag" href={url_for(tag.path)}>{tag.name}</a>;
-                        })}
-                    </div> : null}
+                    {!index && page.tags && page.tags.length ? <div>
+                        <div class="guanzhuwo">
+                            <img src="https://tva1.sinaimg.cn/large/a82ff79ely1gmjlobwt2dj21360y5jyr.jpg" alt="关注我，一起品读纵横的世界" title="关注我，一起品读纵横的世界" />
+                        </div>
+
+                        <div class="article-tags size-small mb-4">
+                            <span class="mr-2">#</span>
+                            {page.tags.map(tag => {
+                                return <a class="link-muted mr-2" rel="tag" href={url_for(tag.path)}>{tag.name}</a>;
+                            })}
+                        </div>
+
+                        <div class="shengming">
+                            <p>本站文章除注明转载/出处外，均为本站原创或翻译，转载前请务必署名</p>
+                            <p>关注我，一起品读纵横的世界</p>
+                            <p>
+                                微博：<a href="https://weibo.com/u/2821715870" target="_blank">Mr南朝客</a>，公众号：南朝客（NanChaoKe）
+                            </p>
+                        </div>
+                    </div> : null}                    
+
                     {/* "Read more" button */}
                     {index && page.excerpt ? <a class="article-more button is-small size-small" href={`${url_for(page.link || page.path)}#more`}>{__('article.more')}</a> : null}
                     {/* Share button */}

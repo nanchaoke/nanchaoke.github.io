@@ -233,13 +233,12 @@ widgets:
         # Where should the widget be placed, left sidebar or right sidebar
         position: right
         type: toc
-        list_number: false
 
     # Recent posts widget configurations
-    -
+    # -
         # Where should the widget be placed, left sidebar or right sidebar
-        position: right
-        type: recent_posts
+        # position: right
+        # type: recent_posts
 
     # Recommendation links widget configurations    
     # -

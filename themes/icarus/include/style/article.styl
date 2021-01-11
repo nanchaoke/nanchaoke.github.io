@@ -80,6 +80,35 @@ article
                 display block
             }
 
+            .zhu
+                color #888
+                font-size 14px
+                line-height 1.8
+
+            .fenjie
+                width 35%
+                border-top 1px solid #d3d3d3
+                margin 5rem auto
+
+        .guanzhuwo
+            width 60%
+            margin auto
+            margin-bottom 1.5rem
+        @media screen and (max-width: 767px)
+            .guanzhuwo
+                width  100%
+
+        .shengming
+            font-size 14px
+            border-top 1px solid #e0e0e0
+            padding-top 1rem
+            margin-top 1rem
+            line-height 1.8
+            color #888
+
+            p
+                margin-bottom 0
+
 
 .rtl
     direction: rtl
@@ -118,3 +147,41 @@ article
         left: 0
         width: 100%
         height: 100%
+
+
+@media screen and (min-width: 1280px)
+    .is-1-column .container, .is-2-column .container
+        width: 680px!important
+        max-width: 680px!important
+    .column.is-8-widescreen
+        width: 100%
+
+#toc
+    .card-content
+        .menu
+            &>ul
+                border-left: 1px solid #ddd
+                &>li::before
+                    position: relative
+                    top: 0
+                    left: -4px
+                    display: inline-block
+                    width: 7px
+                    height: 7px
+                    content: ''
+                    border-radius: 50%
+                    background-color: #eb5055
+.menu-list li
+    position: relative
+    top: 15px
+
+.menu-list a
+    margin-left: .5rem
+    position: relative
+    top: -22px
+
+.column.column-right.is-4-tablet.is-4-desktop.is-4-widescreen.order-3.is-sticky
+    position: fixed
+    top: 5rem
+    right: 9%
+    width: 240px
