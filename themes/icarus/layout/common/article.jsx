@@ -104,7 +104,7 @@ module.exports = class extends Component {
                         </div>
 
                         {article && article.readtime && article.readtime === true ? <div class="guanzhuwo">
-                            <img src="https://tva1.sinaimg.cn/large/a82ff79ely1gmjlobwt2dj21360y5jyr.jpg" alt="关注我，一起品读纵横的世界" title="关注我，一起品读纵横的世界" />
+                            <img src="/img/wxwbwz.png" alt="关注我，一起品读纵横的世界" title="关注我，一起品读纵横的世界" />
                         </div> : null}
                     </div> : null}
 
