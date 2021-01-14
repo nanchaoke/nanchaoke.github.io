@@ -11,7 +11,7 @@ author: 南朝客
 priority: 0
 abbrlink: 8443
 date: 2020-07-14 17:12:00
-thumbnail: https://upload.godread.cn/blog/img/congmeiguozhu.jpg
+thumbnail: https://upload.godread.cn/blog/congmeiguozhu.jpg
 ---
 
 > 对华情绪的舆论先行，来源于全民对″自由信仰″的政治化，低智化。
@@ -40,13 +40,13 @@ thumbnail: https://upload.godread.cn/blog/img/congmeiguozhu.jpg
 
 #### **美驻华使领馆"PS照片事件"**
 
-![美驻华使领馆转发假照片推文](https://upload.godread.cn/blog/img/congmeiguozhu_01.jpg)
+![美驻华使领馆转发假照片推文](https://upload.godread.cn/blog/congmeiguozhu_01.jpg)
 
 可以看到，在这个话题下，转发 <font color="red">**1200+**</font>，喜欢  <font color="red">**2500+**</font>，这个数目拿到国内不够看，但在推特上算是比较高光的话题了（实际上关于中国负面的话题都比较高光）。
 
 我们再看看这条推文的原文作者，其高光数量是多少。
 
-![美驻华使领馆转发假照片推文](https://upload.godread.cn/blog/img/congmeiguozhu_02.jpg)
+![美驻华使领馆转发假照片推文](https://upload.godread.cn/blog/congmeiguozhu_02.jpg)
 
 转发  <font color="red">**7300+**</font>，喜欢  <font color="red">**16200+**</font>，放到国内也是妥妥的大V啊。这还仅仅只是原文和驻华使领馆两个人的关注数量，说明了什么问题？
 
