@@ -109,8 +109,8 @@ theme: icarus
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  # repository: git@github.com:nanchaoke/nanchaoke.github.io.git
-  repository: https://github.com/nanchaoke/nanchaoke.github.io.git
+  repository: git@github.com:nanchaoke/nanchaoke.github.io.git
+  # repository: https://github.com/nanchaoke/nanchaoke.github.io.git
   branch: master
 
 # Security
