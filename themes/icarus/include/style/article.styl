@@ -18,15 +18,28 @@ article
 
         .article-meta
             overflow-x: auto
-            margin-bottom: 1.5rem
+            margin-bottom: 1rem
+
+        .title
+            color: #3273dc
+            margin-bottom: 1rem
+            &:hover
+                color: #3273dc
 
         .article-more
             @extend .button.is-light
+            background-color: #44B549
+            color: white
+            &:hover
+                background-color: #44B549
+                color: white
+
 
         .content
             word-wrap: break-word
             font-size: $article-font-size
             line-height: 2rem
+            margin-bottom: 1rem
 
             h1
                 font-size: 1.75em
@@ -70,6 +83,8 @@ article
 
             blockquote
                 font-size 1rem
+                color #828a92
+                line-height 1.8rem
 
             &>p:not(:last-child) {
                 margin-bottom 1.5em
