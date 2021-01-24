@@ -87,9 +87,6 @@
         float left
 
     /* 移动端导航栏 */
-    .hidden
-        display none!important
-
     .is-mobile-new
         display flex!important
 
@@ -119,7 +116,7 @@
         height 2px
         background #2c97e8
         position absolute
-        right .8rem
+        right .95rem
 
     .nav-line:first-child
         top 1.8rem
@@ -130,32 +127,16 @@
     .rotate-line-first
         transform rotateZ(-45deg)
         transform-origin 68% 50%
-        transition .2s ease-out
+        transition .3s ease-out
 
     .rotate-line-last
         transform rotateZ(45deg)
         transform-origin 78% 50%
-        transition .2s ease-out
+        transition .3s ease-out
 
     .back-origin
         transform rotateZ(0deg)
-        transition .2s ease-out
-
-    .search-container
-        padding 0.8rem 1.8rem
-        background #f5f5f5
-        margin 1rem 1.8rem 0
-        border-radius 5px
-
-    .search-icon
-        /* color #2c97e8 */
-        color #888
-
-    .search-text
-        margin-left 0.5rem
-        width 92%
-        display inline-block
-        color #999
+        transition .3s ease-out
 
     .container-new
         padding 0!important
@@ -177,7 +158,8 @@
         padding 1.25rem 1rem!important
 
     .nav-list
-        width auto!important
+        width 52px
+        height 60px
         border none!important
 
     .navbar-start-new
@@ -190,7 +172,7 @@
         padding-top 1rem!important
 
     .navbar-item
-        padding 1.25rem 0!important
+        padding 1.25rem 0.15rem!important
 
     .navbar-item-new
         border-bottom 1px solid #eee!important
@@ -199,3 +181,32 @@
 
     .justify-content-center
         justify-content left!important
+
+    .search-container
+        padding 0.5rem 0 .5rem 0
+        background #f5f5f5
+        margin 1rem 1.8rem 0
+        border-radius 5px
+        &>.search
+            padding-left 1.3rem
+
+    .search-icon
+        /* color #2c97e8 */
+        color #888
+
+    .search-text
+        margin-left 0.5rem
+        width 72%
+        display inline-block
+        color #999
+
+    .search-text-long
+        margin-left 0.5rem
+        width 87%
+        display inline-block
+        color #999
+        padding .5rem
+
+    .btn-menu
+        display inline-block!important
+        padding .5rem 1.2rem!important

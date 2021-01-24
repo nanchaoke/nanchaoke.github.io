@@ -49,7 +49,7 @@ class Navbar extends Component {
                             <i class="fas fa-search" style="color: #2c97e8"></i>
                         </a> : null}
 
-                        <a class="navbar-item is-hidden-tablet catalogue nav-list" id="nav-list" title={tocTitle} href="javascript:;">
+                        <a class="navbar-item nav-list" id="nav-list" title="移动端导航栏" href="javascript:;">
                             <i class="nav-line"></i>
                             <i class="nav-line"></i>
                         </a>
@@ -65,10 +65,17 @@ class Navbar extends Component {
 
                     {Object.keys(menu).length ? <div class="navbar-start navbar-start-new is-mobile-new is-hide" id="navbar-menu">
                         {showSearch ? <div class="search-container">
-                            <a class="search" title={searchTitle} href="javascript:;">
+                            {showToc ? <a class="search" title={searchTitle} href="javascript:;">
                                 <i class="fas fa-search search-icon"></i>
                                 <span class="search-text">搜索你想看的...</span>
-                            </a>
+                            </a> : <a class="search" title={searchTitle} href="javascript:;">
+                                <i class="fas fa-search search-icon"></i>
+                                <span class="search-text-long">搜索你想看的...</span>
+                            </a>}
+
+                            {showToc ? <a class="navbar-item is-hidden-tablet catalogue btn-menu" title={tocTitle} href="javascript:;">
+                                <i class="fas fa-list-ul"></i>
+                            </a> : null}
                         </div> : null}
 
                         {Object.keys(menu).map(name => {
