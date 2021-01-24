@@ -35,7 +35,7 @@ class Navbar extends Component {
                         {logo && logo.text ? logo.text : <img src={logoUrl} alt={siteTitle} height="28" />}
                     </a>
 
-                    <div class="navbar-end navbar-end-new is-mobile">
+                    <div class="navbar-end navbar-end-new is-mobile-new">
                         {Object.keys(links).length ? <Fragment>
                             {Object.keys(links).map(name => {
                                 const link = links[name];
@@ -63,7 +63,7 @@ class Navbar extends Component {
                         })}
                     </div> : null}
 
-                    {Object.keys(menu).length ? <div class="navbar-start navbar-start-new is-mobile is-hide" id="navbar-menu">
+                    {Object.keys(menu).length ? <div class="navbar-start navbar-start-new is-mobile-new is-hide" id="navbar-menu">
                         {showSearch ? <div class="search-container">
                             <a class="search" title={searchTitle} href="javascript:;">
                                 <i class="fas fa-search search-icon"></i>
