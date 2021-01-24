@@ -138,4 +138,23 @@
         $mask.on('click', toggleToc);
         $('.navbar-main .catalogue').on('click', toggleToc);
     }
+
+    // 移动端导航栏
+    $('#nav-list').on('click', function() {
+        if ($('#navbar-menu').hasClass('is-hide')) {
+            // 导航栏
+            $('#navbar-menu').removeClass('is-hide').addClass('is-show').children().removeClass('is-totop').addClass('is-top');
+
+            // 点击条变化
+            $(this).children('i:first-child').removeClass('back-origin').addClass('rotate-line-first');
+            $(this).children('i:last-child').removeClass('back-origin').addClass('rotate-line-last');
+        } else {
+            // 导航栏
+            $('#navbar-menu').addClass('is-hide').removeClass('is-show').children().addClass('is-totop').removeClass('is-top');
+
+            // 点击条变化
+            $(this).children('i:first-child').removeClass('rotate-line-first').addClass('back-origin');
+            $(this).children('i:last-child').removeClass('rotate-line-last').addClass('back-origin');
+        }
+    })
 }(jQuery, window.moment, window.ClipboardJS, window.IcarusThemeSettings));

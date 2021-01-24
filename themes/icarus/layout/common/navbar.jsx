@@ -34,15 +34,50 @@ class Navbar extends Component {
                     <a class="navbar-item navbar-logo" href={siteUrl}>
                         {logo && logo.text ? logo.text : <img src={logoUrl} alt={siteTitle} height="28" />}
                     </a>
+
+                    <div class="navbar-end navbar-end-new is-mobile">
+                        {Object.keys(links).length ? <Fragment>
+                            {Object.keys(links).map(name => {
+                                const link = links[name];
+                                return <a class="navbar-item navbar-item-new" target="_blank" rel="noopener" title={name} href={link.url}>
+                                    {link.icon ? <i class={link.icon}></i> : name}
+                                </a>;
+                            })}
+                        </Fragment> : null}
+
+                        {showSearch ? <a class="navbar-item search is-pc" title={searchTitle} href="javascript:;">
+                            <i class="fas fa-search" style="color: #2c97e8"></i>
+                        </a> : null}
+
+                        <a class="navbar-item is-hidden-tablet catalogue nav-list" id="nav-list" title={tocTitle} href="javascript:;">
+                            <i class="nav-line"></i>
+                            <i class="nav-line"></i>
+                        </a>
+                    </div>
                 </div>
                 <div class="navbar-menu">
-                    {Object.keys(menu).length ? <div class="navbar-start">
+                    {Object.keys(menu).length ? <div class="navbar-start is-pc">
                         {Object.keys(menu).map(name => {
                             const item = menu[name];
                             return <a class={classname({ 'navbar-item': true, 'is-active': item.active })} href={item.url}>{name}</a>;
                         })}
                     </div> : null}
-                    <div class="navbar-end">
+
+                    {Object.keys(menu).length ? <div class="navbar-start navbar-start-new is-mobile is-hide" id="navbar-menu">
+                        {showSearch ? <div class="search-container">
+                            <a class="search" title={searchTitle} href="javascript:;">
+                                <i class="fas fa-search search-icon"></i>
+                                <span class="search-text">搜索你想看的...</span>
+                            </a>
+                        </div> : null}
+
+                        {Object.keys(menu).map(name => {
+                            const item = menu[name];
+                            return <a class={classname({ 'navbar-item': true, 'is-active': item.active, 'navbar-item-new': true, 'is-totop':true})} href={item.url}>{name}</a>;
+                        })}
+                    </div> : null}
+
+                    <div class="navbar-end is-pc">
                         {Object.keys(links).length ? <Fragment>
                             {Object.keys(links).map(name => {
                                 const link = links[name];
@@ -51,9 +86,11 @@ class Navbar extends Component {
                                 </a>;
                             })}
                         </Fragment> : null}
+
                         {showToc ? <a class="navbar-item is-hidden-tablet catalogue" title={tocTitle} href="javascript:;">
                             <i class="fas fa-list-ul"></i>
                         </a> : null}
+
                         {showSearch ? <a class="navbar-item search" title={searchTitle} href="javascript:;">
                             <i class="fas fa-search"></i>
                         </a> : null}

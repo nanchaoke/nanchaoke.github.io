@@ -35,18 +35,14 @@ module.exports = class extends Component {
                     </a> : null}
                 </div> : null}
                 {/* Metadata */}
-                <article class={`card-content article${'direction' in page ? ' ' + page.direction : ''}` role="article">
+                <article class={`card-content article${'direction' in page ? ' ' + page.direction : ''}`} role="article">
                     {/* Title */}
                     <h1 class="title is-3 is-size-4-mobile">
                         {index ? <a class="link-muted nav-link" href={url_for(page.link || page.path)}>{page.title}</a> : page.title}
                     </h1>
 
-                    {page.layout !== 'page' ? <div class="article-meta size-small is-uppercase level is-mobile">
+                    {!index && page.layout !== 'page' ? <div class="article-meta size-small is-uppercase level is-mobile">
                         <div class="level-left">
-                            {/* Creation Date */}
-                            {page.date && <span class="level-item" dangerouslySetInnerHTML={{
-                                __html: _p('article.created_at', `<time dateTime="${date_xml(page.date)}" title="${date_xml(page.date)}">${date(page.date)}</time>`)
-                            }}></span>}
                             {/* Last Update Date */}
                             {/*page.updated && <span class="level-item" dangerouslySetInnerHTML={{
                                 __html: _p('article.updated_at', `<time dateTime="${date_xml(page.updated)}" title="${date_xml(page.updated)}">${date(page.updated)}</time>`)
@@ -66,6 +62,10 @@ module.exports = class extends Component {
                                     return categories;
                                 })()}
                             </span> : null}
+                            {/* Creation Date */}
+                            {page.date && <span class="level-item" dangerouslySetInnerHTML={{
+                                __html: _p('article.created_at', `<time dateTime="${date_xml(page.date)}" title="${date_xml(page.date)}">${date(page.date)}</time>`)
+                            }}></span>}
                             {/* Read time */}
                             {/*article && article.readtime && article.readtime === true ? <span class="level-item">
                                 {(() => {
