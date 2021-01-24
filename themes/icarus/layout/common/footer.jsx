@@ -28,7 +28,7 @@ class Footer extends Component {
                         
                         <p class="size-small">
                             <span dangerouslySetInnerHTML={{ __html: `&copy; ${siteYear} ${author || siteTitle}`}}></span>
-                            <span> | 又拍云提供图片存储 | 鄂ICP备18013887号-2</span>
+                            <span> | 又拍云提供图片存储</span>
                             {showVisitorCounter ? <br /> : null}
                             {showVisitorCounter ? <span id="busuanzi_container_site_uv"
                                 dangerouslySetInnerHTML={{ __html: visitorCounterTitle }}></span> : null}
