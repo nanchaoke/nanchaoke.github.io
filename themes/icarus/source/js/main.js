@@ -140,6 +140,50 @@
     }
 
     // 移动端导航栏
+    // 上滑下滑显示隐藏导航栏
+    /*var windowTop=0;//初始话可视区域距离页面顶端的距离
+    $(window).scroll(function() {
+        var scrolls = $(this).scrollTop();//获取当前可视区域距离页面顶端的距离
+        if(scrolls>=windowTop){//当scrolls>windowTop时，表示页面在向下滑动
+            //需要执行隐藏导航的操作
+            if ($('.navbar').hasClass('is-hide')) {
+                $('.navbar').removeClass('is-hide').animate({'position': 'absolute'}, 300);
+            }
+            windowTop=scrolls;
+        }else{
+            //需要执行显示导航动画操作
+            if (!$('.navbar').hasClass('is-hide')) {
+                $('.navbar').removeClass('is-hide').animate({'position': 'unset'}, 300);
+            }
+            windowTop=scrolls;
+        }
+    })*/
+
+    /*$(window).scroll(function() {
+        var startY,endY;
+        document.addEventListener('touchstart',function(e){
+            startY= e.touches[0].pageY;
+        },false);
+        document.addEventListener('touchend',function(e){
+            endY= e.changedTouches[0].pageY;
+            moveLoad();
+        },false);
+        function moveLoad(){
+            var movY=endY-startY;
+            if(movY<-80){
+                //_this.hide();
+                $('.navbar').addClass('is-hide').animate({'position': 'absolute'}, 300);
+            }else{
+                //_this.show();
+                $('.navbar').removeClass('is-hide').animate({'position': 'absolute'}, 300);
+            }
+        }
+    })*/
+
+    
+
+
+    // 显示/隐藏导航栏
     $('#nav-list').on('click', function() {
         if ($('#navbar-menu').hasClass('is-hide')) {
             // 导航栏
@@ -157,4 +201,27 @@
             $(this).children('i:last-child').removeClass('rotate-line-last').addClass('back-origin');
         }
     })
+
+    $(document).ready(function() {
+        var p = 0,
+            t = 0;
+ 
+        $(window).scroll(function(e) {
+            p = $(this).scrollTop();
+
+            if (t <= p) {
+                // 下滑
+                // console.log("down");
+                $('#navbar-toggle').addClass('navbar-toggle-hide').removeClass('navbar-toggle-show');
+            } else {
+                // 上滑
+                // console.log("up");
+                $('#navbar-toggle').removeClass('navbar-toggle-hide').addClass('navbar-toggle-show');
+            }
+            
+            setTimeout(function() {
+                t = p;
+            }, 0);
+        });
+    });
 }(jQuery, window.moment, window.ClipboardJS, window.IcarusThemeSettings));

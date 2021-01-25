@@ -21,10 +21,9 @@ article
             margin-bottom: 1rem
 
         .title
-            color: #3273dc
-            margin-bottom: 1rem
-            &:hover
-                color: #3273dc
+            /* color: #3273dc */
+            /* margin-bottom: 1rem */
+            margin-bottom 0.6rem
 
         .article-more
             @extend .button.is-light
@@ -175,9 +174,6 @@ article
 
 
 @media screen and (min-width: 1280px)
-    .is-1-column .container, .is-2-column .container
-        width: 680px!important
-        max-width: 680px!important
     .column.is-8-widescreen
         width: 100%
 
@@ -252,3 +248,86 @@ article
 
 .is-pc
         display flex!important
+
+.section
+    margin-top 4rem
+
+.navbar-toggle
+    position fixed
+    background white
+    width 100%
+    
+.navbar-toggle-hide
+    transform translateY(-100px)!important
+    transition .3s ease-out
+
+.navbar-toggle-show
+    transform translateY(0px)!important
+    transition .3s ease-out
+
+.title-index
+    font-size 22px
+    color #24292e
+    height 3.7rem
+    overflow hidden
+    line-height 1.8rem
+    &:hover
+        color: #3273dc
+
+.context-title
+    height auto
+    margin-bottom 1rem
+    line-height 2.2rem
+
+.article-meta-context
+    margin-bottom 2rem!important
+
+/* 首页改造 */
+.card-index
+    width 25%
+    float left
+    margin-bottom 1rem
+
+.card-context
+    width 71%
+    margin auto
+
+.card-image
+    padding 0 0.5rem 0
+    height 10rem
+    border-radius 5px
+    overflow hidden
+    width 100%
+
+.card-image-context
+    height auto
+    
+.image-pic
+    height 100%
+    border-radius 4px
+    display block
+    overflow hidden
+
+.card-content-index
+    padding 1rem 1rem 0.5rem
+    margin 0 0.5rem
+    background #f5f5f5
+    border-radius 0 0 4px 4px
+    overflow hidden
+
+.content-index
+    line-height 1rem
+    margin-bottom 1rem
+    height 3.5rem
+    overflow hidden
+
+.time-index
+    float left
+    color #999
+
+.categories-index
+    float right
+    color #999
+
+.pagination
+    clear both

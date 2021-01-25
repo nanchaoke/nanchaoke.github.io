@@ -28,7 +28,7 @@ class Navbar extends Component {
             searchTitle
         } = this.props;
 
-        return <nav class="navbar navbar-main">
+        return <nav class="navbar navbar-main navbar-toggle" id="navbar-toggle">
             <div class="container">
                 <div class="navbar-brand justify-content-center">
                     <a class="navbar-item navbar-logo" href={siteUrl}>
@@ -59,7 +59,7 @@ class Navbar extends Component {
                     {Object.keys(menu).length ? <div class="navbar-start is-pc">
                         {Object.keys(menu).map(name => {
                             const item = menu[name];
-                            return <a class={classname({ 'navbar-item': true, 'is-active': item.active })} href={item.url}>{name}</a>;
+                            return <a class={classname({'navbar-item': true, 'is-active': item.active })} href={item.url}>{name}</a>;
                         })}
                     </div> : null}
 

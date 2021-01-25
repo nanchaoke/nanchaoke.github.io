@@ -27,21 +27,23 @@ module.exports = class extends Component {
 
         return <Fragment>
             {/* Main content */}
-            <div class="card">
+            <div class={index?'card card-index':'card card-context'}>
                 {/* Thumbnail */}
-                {has_thumbnail(page) ? <div class="card-image">
-                    {index ? <a href={url_for(page.link || page.path)} class="image is-7by3">
+                {has_thumbnail(page) ? <div class={`card-image ${index ? 'card-image-index' : 'card-image-context'}`}>
+                    {index ? <a href={url_for(page.link || page.path)} class="image is-7by3 image-pic">
                         <img class="thumbnail" src={get_thumbnail(page)} alt={page.title || get_thumbnail(page)} />
                     </a> : null}
                 </div> : null}
                 {/* Metadata */}
-                <article class={`card-content article${'direction' in page ? ' ' + page.direction : ''}`} role="article">
+                <article class={`card-content article${'direction' in page ? ' ' + page.direction : ''} ${index ? 'card-content-index' : 'card-content-context'}`} role="article">
                     {/* Title */}
-                    <h1 class="title is-3 is-size-4-mobile">
+                    {index ? <h1 class="title is-3 is-size-4-mobile title-index">
                         {index ? <a class="link-muted nav-link" href={url_for(page.link || page.path)}>{page.title}</a> : page.title}
-                    </h1>
+                    </h1> : <h1 class="title is-3 is-size-4-mobile context-title">
+                        {index ? <a class="link-muted nav-link" href={url_for(page.link || page.path)}>{page.title}</a> : page.title}
+                    </h1>}
 
-                    {!index && page.layout !== 'page' ? <div class="article-meta size-small is-uppercase level is-mobile">
+                    {!index && page.layout !== 'page' ? <div class="article-meta size-small is-uppercase level is-mobile article-meta-context">
                         <div class="level-left">
                             {/* Last Update Date */}
                             {/*page.updated && <span class="level-item" dangerouslySetInnerHTML={{
@@ -82,9 +84,26 @@ module.exports = class extends Component {
                     </div> : null}
                     
                     {/* Content/Excerpt */}
-                    <div class="content" dangerouslySetInnerHTML={{ __html: index && page.excerpt ? page.excerpt : page.content }}></div>
+                    <div class={`content ${index ? 'content-index' : 'content-context'}`} dangerouslySetInnerHTML={{ __html: index && page.excerpt ? page.excerpt : page.content }}></div>
 
-                    
+                    {/* Index Creation Date */}
+                    {index && page.date && <span class="level-item time-index" dangerouslySetInnerHTML={{
+                        __html: _p('article.created_at', `<time dateTime="${date_xml(page.date)}" title="${date_xml(page.date)}">${date(page.date)}</time>`)
+                    }}></span>}
+
+                    {/* Index Categories */}
+                    {index && page.categories && page.categories.length ? <span class="level-item categories-index">
+                        {(() => {
+                            const categories = [];
+                            page.categories.forEach((category, i) => {
+                                categories.push(<a class="link-muted" href={url_for(category.path)}>{category.name}</a>);
+                                if (i < page.categories.length - 1) {
+                                    categories.push(<span>&nbsp;/&nbsp;</span>);
+                                }
+                            });
+                            return categories;
+                        })()}
+                    </span> : null}
 
                     {/* Tags */}
                     {!index && page.tags && page.tags.length ? <div class="guanzhushengming">
@@ -109,9 +128,9 @@ module.exports = class extends Component {
                     </div> : null}
 
                     {/* "Read more" button */}
-                    {index && page.excerpt ? <a class="article-more button is-small size-small" href={`${url_for(page.link || page.path)}#more`}>{__('article.more')}
+                    {/*index && page.excerpt ? <a class="article-more button is-small size-small" href={`${url_for(page.link || page.path)}#more`}>{__('article.more')}
                         <i class="fa fa-caret-right famore"></i>
-                    </a> : null}
+                    </a> : null*/}
                     {/* Share button */}
                     {!index ? <Share config={config} page={page} helper={helper} /> : null}
                 </article>

@@ -30,6 +30,7 @@
 +mobile()
     .section
         padding: 0 1rem
+        margin-top 5rem!important
 
     article
         &.article
@@ -43,10 +44,12 @@
 
     .card
         .card-image
-            padding 1rem 1rem 0
+            padding 0
+            height auto
 
         .card-image:empty
-            padding 0 0 1rem
+            /* padding 0 0 1rem */
+            padding 0
 
         .card-content
             padding .8rem
@@ -196,3 +199,19 @@
     .btn-menu
         display inline-block!important
         padding .5rem 1.2rem!important
+
+    .card-index
+        width 100%!important
+        float unset
+
+    .card-context
+        width 100%!important
+
+    .context-title
+        height auto
+        overflow unset
+        height auto
+        overflow unset
+        line-height 1.8rem
+        &:hover
+            color: #24292e
