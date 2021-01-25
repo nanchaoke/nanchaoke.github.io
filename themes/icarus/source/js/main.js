@@ -180,9 +180,6 @@
         }
     })*/
 
-    
-
-
     // 显示/隐藏导航栏
     $('#nav-list').on('click', function() {
         if ($('#navbar-menu').hasClass('is-hide')) {
@@ -202,6 +199,33 @@
         }
     })
 
+    // 移动端：查看目录显隐导航栏
+    var toc = $('#toc').length;
+    if (toc === 0) {
+        $('.btn-menu').addClass('is-hide').remove();
+        $('.search-text').addClass('search-text-long').removeClass('search-text');
+    }
+    $('.btn-menu').on('click', function() {
+        var tocNumber = $('#toc').length;
+        if ($('#navbar-menu').hasClass('is-show') && tocNumber > 0) {
+            // 导航栏
+            $('#navbar-menu').addClass('is-hide').removeClass('is-show').children().addClass('is-totop').removeClass('is-top');
+
+            // 点击条变化
+            $('.is-mobile-new .nav-line:first-child').removeClass('rotate-line-first').addClass('back-origin');
+            $('.is-mobile-new .nav-line:last-child').removeClass('rotate-line-last').addClass('back-origin');
+        } else {
+            // 导航栏
+            $('#navbar-menu').removeClass('is-hide').addClass('is-show').children().removeClass('is-totop').addClass('is-top');
+
+            // 点击条变化
+            $('.is-mobile-new .nav-line:first-child').removeClass('back-origin').addClass('rotate-line-first');
+            $('.is-mobile-new .nav-line:last-child').removeClass('back-origin').addClass('rotate-line-last');
+        }
+    })
+
+
+    // 上下滑动显隐导航栏
     $(document).ready(function() {
         var p = 0,
             t = 0;
