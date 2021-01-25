@@ -15,7 +15,7 @@ class Footer extends Component {
             visitorCounterTitle
         } = this.props;
 
-        return <footer class="footer">
+        return <footer class="footer footer-width">
             <div class="container">
                 <div class="level">
                     <div class="level-start">
