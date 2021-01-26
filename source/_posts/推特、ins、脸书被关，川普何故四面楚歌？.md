@@ -161,42 +161,42 @@ FBI发誓要查清国会山暴动案，我祈祷没有华人团体介入，这�
 
 
 
-<div>
-	<ul style="margin: 0;">
-        <li style="list-style: none; background: #eef3fc; border-radius: 10px; overflow: hidden; padding: 1rem; margin-bottom: 1rem; cursor: pointer; position: relative; min-height: 90px;">
-			<a style="float: left; width: 73%; text-decoration: none;" href="https://mp.weixin.qq.com/s?__biz=MzIzNDE5MTQ4Mw==&mid=2655637575&idx=1&sn=288fe2e824db1966b7b47b6b986abebd&chksm=f3475f53c430d6450851585a3f6ffa2acb1993b126c9cdba5edeb02e4359700696448b0f825b&token=1565060228&lang=zh_CN#rd" target="_blank">
-				<span style="width: 100%; color: #444;font-weight: bold; display: inline-block; line-height: 1.6rem; font-size: 16px;">新年第一天，回顾2020庚子年世界12大事</span>
-				<span style="width: 100%; color: #777; font-size: 14px; line-height: 1rem;  position: absolute; left: 1rem; bottom: 1rem;">mp.weixin.qq.com</span>
+<div class="recommend-list">
+	<ul>
+        <li>
+			<a href="https://mp.weixin.qq.com/s?__biz=MzIzNDE5MTQ4Mw==&mid=2655637575&idx=1&sn=288fe2e824db1966b7b47b6b986abebd&chksm=f3475f53c430d6450851585a3f6ffa2acb1993b126c9cdba5edeb02e4359700696448b0f825b&token=1565060228&lang=zh_CN#rd" target="_blank">
+				<span>新年第一天，回顾2020庚子年世界12大事</span>
+				<span>mp.weixin.qq.com</span>
 			</a>
-			<img style="max-width: 24%; height: 60px; border-radius: 6px; float: right;" src="https://upload.godread.cn/blog/xinniandiyi.jpg"/>
+			<img src="https://upload.godread.cn/blog/xinniandiyi.jpg"/>
 		</li>
-        <li style="list-style: none; background: #eef3fc; border-radius: 10px; overflow: hidden; padding: 1rem; margin-bottom: 1rem; cursor: pointer; position: relative; min-height: 90px;">
-			<a style="float: left; width: 73%; text-decoration: none;" href="https://weibo.com/ttarticle/p/show?id=2309404588270804664326" target="_blank">
-				<span style="width: 100%; color: #444;font-weight: bold; display: inline-block; line-height: 1.6rem; font-size: 16px;">被病毒意外澄清的世界秩序：左右为难的欧盟与巨型孤岛</span>
-				<span style="width: 100%; color: #777; font-size: 14px; line-height: 1rem; position: absolute; left: 1rem; bottom: 1rem;">weibo.com</span>
+        <li>
+			<a href="https://weibo.com/ttarticle/p/show?id=2309404588270804664326" target="_blank">
+				<span>被病毒意外澄清的世界秩序：左右为难的欧盟与巨型孤岛</span>
+				<span>weibo.com</span>
 			</a>
-            <img style="max-width: 24%; height: 60px; border-radius: 6px; float: right;" src="https://upload.godread.cn/blog/beibingduyi.jpg"/>
+            <img src="https://upload.godread.cn/blog/beibingduyi.jpg"/>
 		</li>
-        <li style="list-style: none; background: #eef3fc; border-radius: 10px; overflow: hidden; padding: 1rem; margin-bottom: 1rem; cursor: pointer; position: relative; min-height: 90px;">
-			<a style="float: left; width: 73%; text-decoration: none;" href="https://mp.weixin.qq.com/s?__biz=MzIzNDE5MTQ4Mw==&mid=2655637799&idx=1&sn=3c9186a8dc211c804d1a1247f5df06d0&chksm=f3475e33c430d725c8b467fb757fe476e7922fd677af63d3caa661edbfb1818dd70d050417de&token=2002906440&lang=zh_CN#rd" target="_blank">
-				<span style="width: 100%; color: #444;font-weight: bold; display: inline-block; line-height: 1.6rem; font-size: 16px;">中欧投资协议具有国际对抗性吗？</span>
-				<span style="width: 100%; color: #777; font-size: 14px; line-height: 1rem; position: absolute; left: 1rem; bottom: 1rem;">mp.weixin.qq.com</span>
+        <li>
+			<a href="https://mp.weixin.qq.com/s?__biz=MzIzNDE5MTQ4Mw==&mid=2655637799&idx=1&sn=3c9186a8dc211c804d1a1247f5df06d0&chksm=f3475e33c430d725c8b467fb757fe476e7922fd677af63d3caa661edbfb1818dd70d050417de&token=2002906440&lang=zh_CN#rd" target="_blank">
+				<span>中欧投资协议具有国际对抗性吗？</span>
+				<span>mp.weixin.qq.com</span>
 			</a>
-			<img style="max-width: 24%; height: 60px; border-radius: 6px; float: right;" src="https://upload.godread.cn/blog/zhongoutouzi.jpg"/>
+			<img src="https://upload.godread.cn/blog/zhongoutouzi.jpg"/>
 		</li>
-        <li style="list-style: none; background: #eef3fc; border-radius: 10px; overflow: hidden; padding: 1rem; margin-bottom: 1rem; cursor: pointer; position: relative; min-height: 90px;">
-			<a style="float: left; width: 73%; text-decoration: none;" href="https://mp.weixin.qq.com/s?__biz=MzIzNDE5MTQ4Mw==&mid=2655637679&idx=1&sn=f5aefe6d28886e763b4b8faa40162ee7&chksm=f3475fbbc430d6adf6b2921b01d8336736de546ecb5fb4c38f18e8d9e6407787adbf58b1602b&token=1456400513&lang=zh_CN#rd" target="_blank">
-				<span style="width: 100%; color: #444;font-weight: bold; display: inline-block; line-height: 1.6rem; font-size: 16px;">我顶撞了一个大V，就被拉进了小黑屋，想说一些不成熟的思考</span>
-				<span style="width: 100%; color: #777; font-size: 14px; line-height: 1rem; position: absolute; left: 1rem; bottom: 1rem;">mp.weixin.qq.com</span>
+        <li>
+			<a href="https://mp.weixin.qq.com/s?__biz=MzIzNDE5MTQ4Mw==&mid=2655637679&idx=1&sn=f5aefe6d28886e763b4b8faa40162ee7&chksm=f3475fbbc430d6adf6b2921b01d8336736de546ecb5fb4c38f18e8d9e6407787adbf58b1602b&token=1456400513&lang=zh_CN#rd" target="_blank">
+				<span>我顶撞了一个大V，就被拉进了小黑屋，想说一些不成熟的思考</span>
+				<span>mp.weixin.qq.com</span>
 			</a>
-			<img style="max-width: 24%; height: 60px; border-radius: 6px; float: right;" src="https://upload.godread.cn/blog/wodingzhuangle.jpg"/> 
+			<img src="https://upload.godread.cn/blog/wodingzhuangle.jpg"/> 
 		</li>
-		<li style="list-style: none; background: #eef3fc; border-radius: 10px; overflow: hidden; padding: 1rem; margin-bottom: 1rem; cursor: pointer; position: relative; min-height: 90px;">
-			<a style="float: left; width: 73%; text-decoration: none;" href="https://mp.weixin.qq.com/s?__biz=MzIzNDE5MTQ4Mw==&mid=2655637670&idx=1&sn=7981e73e821d0d37f4419097c59c1b19&chksm=f3475fb2c430d6a403892ee948cdcdd2e3e417ffe7b7045fd272f9800878dd22a440dfec902f&token=1337939405&lang=zh_CN#rd" target="_blank">
-				<span style="width: 100%; color: #444;font-weight: bold; display: inline-block; line-height: 1.6rem; font-size: 16px;">世界上有一种火上浇油叫“莫里森式道歉”</span>
-				<span style="width: 100%; color: #777; font-size: 14px; line-height: 1rem; position: absolute; left: 1rem; bottom: 1rem;">mp.weixin.qq.com</span>
+		<li>
+			<a href="https://mp.weixin.qq.com/s?__biz=MzIzNDE5MTQ4Mw==&mid=2655637670&idx=1&sn=7981e73e821d0d37f4419097c59c1b19&chksm=f3475fb2c430d6a403892ee948cdcdd2e3e417ffe7b7045fd272f9800878dd22a440dfec902f&token=1337939405&lang=zh_CN#rd" target="_blank">
+				<span>世界上有一种火上浇油叫“莫里森式道歉”</span>
+				<span>mp.weixin.qq.com</span>
 			</a>
-            <img style="max-width: 24%; height: 60px; border-radius: 6px; float: right;" src="https://upload.godread.cn/blog/shijieshangyou.jpg"/>
+            <img src="https://upload.godread.cn/blog/shijieshangyou.jpg"/>
 		</li>
 	</ul>
 </div>
