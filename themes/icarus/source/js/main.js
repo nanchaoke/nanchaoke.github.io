@@ -239,7 +239,7 @@
             if (t <= p) {
                 // 下滑
                 // console.log("down");
-                if (p > 100) {
+                if (p > 60) {
                     $('#navbar-toggle').addClass('navbar-toggle-hide').removeClass('navbar-toggle-show');
                 }                
             } else {
