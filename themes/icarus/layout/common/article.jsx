@@ -30,9 +30,9 @@ module.exports = class extends Component {
             <div class={index?'card card-index':'card card-context'}>
                 {/* Thumbnail */}
                 {has_thumbnail(page) ? <div class={`card-image ${index ? 'card-image-index' : 'card-image-context'}`}>
-                    {index ? <a href={url_for(page.link || page.path)} class="image is-7by3 image-pic">
+                    <a href={url_for(page.link || page.path)} class={`image is-7by3 image-pic ${!index ? 'image-pic-context' : ''}`}>
                         <img class="thumbnail" src={get_thumbnail(page)} alt={page.title || get_thumbnail(page)} />
-                    </a> : null}
+                    </a>
                 </div> : null}
                 {/* Metadata */}
                 <article class={`card-content article${'direction' in page ? ' ' + page.direction : ''} ${index ? 'card-content-index' : 'card-content-context'}`} role="article">
