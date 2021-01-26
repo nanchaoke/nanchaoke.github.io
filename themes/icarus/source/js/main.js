@@ -245,9 +245,7 @@
             } else {
                 // 上滑
                 // console.log("up");
-                if (p > 200) {
-                    $('#navbar-toggle').removeClass('navbar-toggle-hide').addClass('navbar-toggle-show');
-                }
+                $('#navbar-toggle').removeClass('navbar-toggle-hide').addClass('navbar-toggle-show');
             }
             
             setTimeout(function() {
