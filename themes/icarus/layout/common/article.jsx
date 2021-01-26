@@ -43,8 +43,8 @@ module.exports = class extends Component {
                         {index ? <a class="link-muted nav-link" href={url_for(page.link || page.path)}>{page.title}</a> : page.title}
                     </h1>}
 
-                    {!index && page.layout !== 'page' ? <div class="article-meta size-small is-uppercase level is-mobile article-meta-context">
-                        <div class="level-left">
+                    {!index && page.layout !== 'page' ? <div class="article-meta size-small is-uppercase level is-mobile article-meta-context article-meta-mobile">
+                        <div class="level-left level-left-toggle">
                             {/* Last Update Date */}
                             {/*page.updated && <span class="level-item" dangerouslySetInnerHTML={{
                                 __html: _p('article.updated_at', `<time dateTime="${date_xml(page.updated)}" title="${date_xml(page.updated)}">${date(page.updated)}</time>`)
