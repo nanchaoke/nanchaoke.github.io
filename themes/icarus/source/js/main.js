@@ -205,6 +205,8 @@
         $('.btn-menu').addClass('is-hide').remove();
         $('.search-text').addClass('search-text-long').removeClass('search-text');
     }
+
+    // 导航按钮
     $('.btn-menu').on('click', function() {
         var tocNumber = $('#toc').length;
         if ($('#navbar-menu').hasClass('is-show') && tocNumber > 0) {
@@ -232,15 +234,20 @@
  
         $(window).scroll(function(e) {
             p = $(this).scrollTop();
+            // console.log(p);
 
             if (t <= p) {
                 // 下滑
                 // console.log("down");
-                $('#navbar-toggle').addClass('navbar-toggle-hide').removeClass('navbar-toggle-show');
+                if (p > 100) {
+                    $('#navbar-toggle').addClass('navbar-toggle-hide').removeClass('navbar-toggle-show');
+                }                
             } else {
                 // 上滑
                 // console.log("up");
-                $('#navbar-toggle').removeClass('navbar-toggle-hide').addClass('navbar-toggle-show');
+                if (p > 200) {
+                    $('#navbar-toggle').removeClass('navbar-toggle-hide').addClass('navbar-toggle-show');
+                }
             }
             
             setTimeout(function() {
