@@ -24,6 +24,8 @@ article
             /* color: #3273dc */
             /* margin-bottom: 1rem */
             margin-bottom 0.6rem
+            .nav-link
+                font-weight unset
 
         .article-more
             @extend .button.is-light
@@ -265,6 +267,11 @@ article
     height 3.7rem
     overflow hidden
     line-height 1.8rem
+    overflow hidden
+    text-overflow ellipsis
+    -webkit-line-clamp 2
+    -webkit-box-orient vertical
+    display -webkit-inline-box
     &:hover
         color: #3273dc
 
@@ -319,6 +326,10 @@ article
     margin-bottom 2rem
     height 3.5rem
     overflow hidden
+    text-overflow ellipsis
+    -webkit-line-clamp 2
+    -webkit-box-orient vertical
+    display -webkit-inline-box
 
 .time-index
     float left
