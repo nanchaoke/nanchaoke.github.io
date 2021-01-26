@@ -30,7 +30,7 @@ module.exports = class extends Component {
             <div class={index?'card card-index':'card card-context'}>
                 {/* Thumbnail */}
                 {has_thumbnail(page) ? <div class={`card-image ${index ? 'card-image-index' : 'card-image-context'}`}>
-                    <a href={index ? url_for(page.link || page.path) : `javascript:;`} class={`image is-7by3 image-pic ${!index ? 'image-pic-context' : ''}`}>
+                    <a class="image is-7by3 image-pic" href={index ? url_for(page.link || page.path) : `javascript:;`}>
                         <img class="thumbnail" src={get_thumbnail(page)} alt={page.title || get_thumbnail(page)} />
                     </a>
                 </div> : null}
