@@ -253,4 +253,24 @@
             }, 0);
         });
     });
+
+    // 首页列表图片滑过光班效果
+    $('.card').on({
+        mouseenter: function() {
+            if ($(this).find('.light-move').hasClass('light-hide')) {
+                $(this).find('.light-move').removeClass('light-hide').addClass('light-show');
+
+                $(this).find('.card-image').addClass('card-image-index-slide').removeClass('card-image-index-inslide');
+                $(this).find('.title-index').addClass('title-index-slide').removeClass('title-index-inslide');
+                $(this).find('.content-index').addClass('content-index-slide').removeClass('content-index-inslide');
+            }
+        },
+        mouseleave: function() {
+            $(this).find('.light-move').addClass('light-hide').removeClass('light-show');
+
+            $(this).find('.card-image').removeClass('card-image-index-slide').addClass('card-image-index-inslide');
+            $(this).find('.title-index').removeClass('title-index-slide').addClass('title-index-inslide');
+            $(this).find('.content-index').removeClass('content-index-slide').addClass('content-index-inslide');
+        }
+    })
 }(jQuery, window.moment, window.ClipboardJS, window.IcarusThemeSettings));

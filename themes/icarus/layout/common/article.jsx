@@ -31,6 +31,7 @@ module.exports = class extends Component {
                 {/* Thumbnail */}
                 {has_thumbnail(page) ? <div class={`card-image ${index ? 'card-image-index' : 'card-image-context'}`}>
                     <a class="image is-7by3 image-pic" href={index ? url_for(page.link || page.path) : `javascript:;`}>
+                        {index ? <span class="light-move light-hide"></span> : null}
                         <img class="thumbnail" src={get_thumbnail(page)} alt={page.title || get_thumbnail(page)} />
                     </a>
                 </div> : null}
@@ -65,9 +66,8 @@ module.exports = class extends Component {
                                 })()}
                             </span> : null}
                             {/* Creation Date */}
-                            {page.date && <span class="level-item" dangerouslySetInnerHTML={{
-                                __html: _p('article.created_at', `<time dateTime="${date_xml(page.date)}" title="${date_xml(page.date)}">${date(page.date)}</time>`)
-                            }}></span>}
+                            {page.date && <span class="level-item time-index">{date(page.date)}</span>}
+
                             {/* Read time */}
                             {/*article && article.readtime && article.readtime === true ? <span class="level-item">
                                 {(() => {
@@ -87,9 +87,7 @@ module.exports = class extends Component {
                     <div class={`content ${index ? 'content-index' : 'content-context'}`} dangerouslySetInnerHTML={{ __html: index && page.excerpt ? page.excerpt : page.content }}></div>
 
                     {/* Index Creation Date */}
-                    {index && page.date && <span class="level-item time-index" dangerouslySetInnerHTML={{
-                        __html: _p('article.created_at', `<time dateTime="${date_xml(page.date)}" title="${date_xml(page.date)}">${date(page.date)}</time>`)
-                    }}></span>}
+                    {index && page.date && <span class="level-item time-index">{date(page.date)}</span>}
 
                     {/* Index Categories */}
                     {index && page.categories && page.categories.length ? <span class="level-item categories-index">
