@@ -30,7 +30,7 @@ module.exports = class extends Component {
             <div class={index?'card card-index':'card card-context'}>
                 {/* Thumbnail */}
                 {has_thumbnail(page) ? <div class={`card-image ${index ? 'card-image-index' : 'card-image-context'}`}>
-                    <a class="image is-7by3 image-pic" href={index ? url_for(page.link || page.path) : `javascript:;`}>
+                    <a class="image is-7by3 image-pic" href={index ? url_for(page.link || page.path) : `javascript:;`} target="_blank">
                         {index ? <span class="light-move light-hide"></span> : null}
                         <img class="thumbnail" src={get_thumbnail(page)} alt={page.title || get_thumbnail(page)} />
                     </a>
@@ -39,9 +39,9 @@ module.exports = class extends Component {
                 <article class={`card-content article${'direction' in page ? ' ' + page.direction : ''} ${index ? 'card-content-index' : 'card-content-context'}`} role="article">
                     {/* Title */}
                     {index ? <h1 class="title is-3 is-size-4-mobile title-index">
-                        {index ? <a class="link-muted nav-link" href={url_for(page.link || page.path)}>{page.title}</a> : page.title}
+                        {index ? <a class="link-muted nav-link" href={url_for(page.link || page.path)} target="_blank">{page.title}</a> : page.title}
                     </h1> : <h1 class="title is-3 is-size-4-mobile context-title">
-                        {index ? <a class="link-muted nav-link" href={url_for(page.link || page.path)}>{page.title}</a> : page.title}
+                        {index ? <a class="link-muted nav-link" href={url_for(page.link || page.path)} target="_blank">{page.title}</a> : page.title}
                     </h1>}
 
                     {!index && page.layout !== 'page' ? <div class="article-meta size-small is-uppercase level is-mobile article-meta-context article-meta-mobile">
@@ -113,25 +113,19 @@ module.exports = class extends Component {
                         </div>
                     </div> : null}
 
-                    <div class="shengming">
-                        <p>本站文章除注明转载/出处外，均为本站原创或翻译，转载前请务必署名</p>
-                        <p>关注我，一起品读纵横的世界</p>
-                        <p>
-                            微博：<a href="https://weibo.com/u/2821715870" target="_blank">Mr南朝客</a>，公众号：南朝客（NanChaoKe）
-                        </p>
-                    </div>
+                    {!index ? <div>
+                        <div class="shengming">
+                            <p>本站文章除注明转载/出处外，均为本站原创或翻译，转载前请务必署名</p>
+                            <p>关注我，一起品读纵横的世界</p>
+                            <p>
+                                微博：<a href="https://weibo.com/u/2821715870" target="_blank">Mr南朝客</a>，公众号：南朝客（NanChaoKe）
+                            </p>
+                        </div>
 
-                    {/* article && article.readtime && article.readtime === true ? <span class="level-item">
-                        {(() => {
-                            const words = getWordCount(page._content);
-                            const time = moment.duration((words / 150.0) * 60, 'seconds');
-                            return `${_p('article.read_time', time.locale(index ? indexLaunguage : language).humanize())} (${_p('article.word_count', words)})`;
-                        })()}
-                    </span> : null */}
-
-                    <div class="guanzhuwo">
-                        <img src="/img/wxwbwz.png" alt="关注我，一起品读纵横的世界" title="关注我，一起品读纵横的世界" />
-                    </div>
+                        <div class="guanzhuwo">
+                            <img src="/img/wxwbwz.png" alt="关注我，一起品读纵横的世界" title="关注我，一起品读纵横的世界" />
+                        </div>
+                    </div> : null}
 
                     {/* "Read more" button */}
                     {/*index && page.excerpt ? <a class="article-more button is-small size-small" href={`${url_for(page.link || page.path)}#more`}>{__('article.more')}

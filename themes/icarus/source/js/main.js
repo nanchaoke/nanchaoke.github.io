@@ -274,6 +274,12 @@
         }
     })
 
-    // 生成描述简介引号
+    // 首页生成描述简介引号
     $('.description-text').prepend('<i class="fa fa-quote-left"></i>').append('<i class="fa fa-quote-right"></i>');
+
+    // 首页描述生成加密图标
+    $('.encrypt-tip').prepend('<i class="hbe-lock fa fa-lock"></i>');
+
+    // 文章页提示文字前生成加密图标
+    $('#hexo-blog-encrypt label').prepend('<i class="hbe-lock fa fa-lock"></i>');
 }(jQuery, window.moment, window.ClipboardJS, window.IcarusThemeSettings));
