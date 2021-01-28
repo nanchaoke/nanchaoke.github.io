@@ -273,4 +273,7 @@
             $(this).find('.content-index').removeClass('content-index-slide').addClass('content-index-inslide');
         }
     })
+
+    // 生成描述简介引号
+    $('.description-text').prepend('<i class="fa fa-quote-left"></i>').append('<i class="fa fa-quote-right"></i>');
 }(jQuery, window.moment, window.ClipboardJS, window.IcarusThemeSettings));

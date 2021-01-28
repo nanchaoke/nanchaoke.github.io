@@ -88,9 +88,6 @@ article
                 font-size 1rem
                 color #828a92
                 line-height 1.8rem
-                border-left none
-                background-color unset
-                padding 0
 
             &>p:not(:last-child) {
                 margin-bottom 1.5em
@@ -412,6 +409,7 @@ article
     left -100%
     bottom 0
     z-index 9
+    opacity .5
 
 // 首页card滑过效果
 .card-image-index-slide
@@ -433,3 +431,20 @@ article
 .content-index-inslide
     margin 0 0 1rem 0!important
     transition .3s ease-out
+
+.description-text
+    background none
+    padding 0
+    border none
+    line-height 1.8rem
+    color #828a92
+    font-size 14px
+    margin 0 0 1rem 0
+    position relative
+    .text
+        padding 0 .5rem 0 1.5rem
+    &>i
+        color #d9d9d9
+    &>.fa-quote-left
+        position absolute
+        top -.5rem

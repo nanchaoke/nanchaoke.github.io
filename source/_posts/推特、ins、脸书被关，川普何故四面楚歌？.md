@@ -16,7 +16,7 @@ abbrlink: e77517f6
 thumbnail: https://upload.godread.cn/blog/twitterins.jpg
 ---
 
-> 前苏联领导人弋尔巴乔夫为什么暗示他知道谁策划了美国国会骚乱？
+<div class="description-text"><span class="text">前苏联领导人弋尔巴乔夫为什么暗示他知道谁策划了美国国会骚乱？</span></div>
 
 <!-- more -->
 
