@@ -69,13 +69,13 @@ module.exports = class extends Component {
                             {page.date && <span class="level-item time-index">{date(page.date)}</span>}
 
                             {/* Read time */}
-                            {/*article && article.readtime && article.readtime === true ? <span class="level-item">
+                            {/* article && article.readtime && article.readtime === true ? <span class="level-item">
                                 {(() => {
                                     const words = getWordCount(page._content);
                                     const time = moment.duration((words / 150.0) * 60, 'seconds');
                                     return `${_p('article.read_time', time.locale(index ? indexLaunguage : language).humanize())} (${_p('article.word_count', words)})`;
                                 })()}
-                            </span> : null*/}
+                            </span> : null */}
                             {/* Visitor counter */}
                             {!index && plugins && plugins.busuanzi === true ? <span class="level-item" id="busuanzi_container_page_pv" dangerouslySetInnerHTML={{
                                 __html: _p('plugin.visit_count', '<span id="busuanzi_value_page_pv">0</span> ')
@@ -111,19 +111,27 @@ module.exports = class extends Component {
                                 return <a class="link-muted mr-2" rel="tag" href={url_for(tag.path)}>{tag.name}</a>;
                             })}
                         </div>
-
-                        <div class="shengming">
-                            <p>本站文章除注明转载/出处外，均为本站原创或翻译，转载前请务必署名</p>
-                            <p>关注我，一起品读纵横的世界</p>
-                            <p>
-                                微博：<a href="https://weibo.com/u/2821715870" target="_blank">Mr南朝客</a>，公众号：南朝客（NanChaoKe）
-                            </p>
-                        </div>
-
-                        {article && article.readtime && article.readtime === true ? <div class="guanzhuwo">
-                            <img src="/img/wxwbwz.png" alt="关注我，一起品读纵横的世界" title="关注我，一起品读纵横的世界" />
-                        </div> : null}
                     </div> : null}
+
+                    <div class="shengming">
+                        <p>本站文章除注明转载/出处外，均为本站原创或翻译，转载前请务必署名</p>
+                        <p>关注我，一起品读纵横的世界</p>
+                        <p>
+                            微博：<a href="https://weibo.com/u/2821715870" target="_blank">Mr南朝客</a>，公众号：南朝客（NanChaoKe）
+                        </p>
+                    </div>
+
+                    {/* article && article.readtime && article.readtime === true ? <span class="level-item">
+                        {(() => {
+                            const words = getWordCount(page._content);
+                            const time = moment.duration((words / 150.0) * 60, 'seconds');
+                            return `${_p('article.read_time', time.locale(index ? indexLaunguage : language).humanize())} (${_p('article.word_count', words)})`;
+                        })()}
+                    </span> : null */}
+
+                    <div class="guanzhuwo">
+                        <img src="/img/wxwbwz.png" alt="关注我，一起品读纵横的世界" title="关注我，一起品读纵横的世界" />
+                    </div>
 
                     {/* "Read more" button */}
                     {/*index && page.excerpt ? <a class="article-more button is-small size-small" href={`${url_for(page.link || page.path)}#more`}>{__('article.more')}
