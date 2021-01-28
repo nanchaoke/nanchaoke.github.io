@@ -104,16 +104,14 @@ module.exports = class extends Component {
                     </span> : null}
 
                     {/* Tags */}
-                    {!index && page.tags && page.tags.length ? <div class="guanzhushengming">
-                        <div class="article-tags size-small mb-4">
-                            <span class="mr-2">#</span>
-                            {page.tags.map(tag => {
-                                return <a class="link-muted mr-2" rel="tag" href={url_for(tag.path)}>{tag.name}</a>;
-                            })}
-                        </div>
+                    {!index && page.tags && page.tags.length ? <div class="article-tags size-small mb-4">
+                        <span class="mr-2">#</span>
+                        {page.tags.map(tag => {
+                            return <a class="link-muted mr-2" rel="tag" href={url_for(tag.path)}>{tag.name}</a>;
+                        })}
                     </div> : null}
 
-                    {!index ? <div>
+                    {!index ? <div class="guanzhushengming">
                         <div class="shengming">
                             <p>本站文章除注明转载/出处外，均为本站原创或翻译，转载前请务必署名</p>
                             <p>关注我，一起品读纵横的世界</p>
