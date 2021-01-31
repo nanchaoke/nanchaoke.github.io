@@ -9,7 +9,7 @@ logo: /img/Godread-long-new.png
 head:
     # URL or path to the website's icon
     # favicon: /img/Godread-favicon-nobg.png
-    favicon: /img/Godread-favicon-new-nobg.png
+    favicon: /img/Godread-favicon.png
     # Open Graph metadata
     # https://hexo.io/docs/helpers.html#open-graph
     open_graph:
