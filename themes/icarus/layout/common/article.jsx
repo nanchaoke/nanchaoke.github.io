@@ -55,18 +55,18 @@ module.exports = class extends Component {
                             {/* author */}
                             {page.author ? <span class="level-item"> {page.author} </span> : null}
                             {/* Categories */}
-                            {page.categories && page.categories.length ? <span class="level-item">
+                            {/* page.categories && page.categories.length ? <span class="level-item">
                                 {(() => {
                                     const categories = [];
                                     page.categories.forEach((category, i) => {
-                                        categories.push(<a class="link-muted" href={url_for(category.path)}>{category.name}</a>);
+                                        categories.push(<a class="link-muted" href={url_for(category.path)} target="_blank">{category.name}</a>);
                                         if (i < page.categories.length - 1) {
                                             categories.push(<span>&nbsp;/&nbsp;</span>);
                                         }
                                     });
                                     return categories;
                                 })()}
-                            </span> : null}
+                            </span> : null */}
                             {/* Creation Date */}
                             {page.date && <span class="level-item time-index">{date(page.date)}</span>}
 
@@ -82,6 +82,37 @@ module.exports = class extends Component {
                             {!index && plugins && plugins.busuanzi === true ? <span class="level-item" id="busuanzi_container_page_pv" dangerouslySetInnerHTML={{
                                 __html: _p('plugin.visit_count', '<span id="busuanzi_value_page_pv">0</span> ')
                             }}></span> : null}
+                        </div>
+                    </div> : null}
+
+                    {!index && page.layout !== 'page' && page.categories && page.categories.length ? <div class="categories-list">
+                        <div class="categories-left">
+                            <span>收录于分类</span>
+                            <span class="level-item">
+                                {(() => {
+                                    const categories = [];
+                                    page.categories.forEach((category, i) => {
+                                        categories.push(<a class="link-muted" href={url_for(category.path)} target="_blank"># {category.name}</a>);
+                                        if (i < page.categories.length - 1) {
+                                            categories.push(<span>&nbsp;/&nbsp;</span>);
+                                        }
+                                    });
+                                    return categories;
+                                })()}
+                            </span>
+                        </div>
+
+                        <div class="categories-right">
+                            {(() => {
+                                const categories = [];
+                                page.categories.forEach((category, i) => {
+                                    categories.push(<a class="link-muted" href={url_for(category.path)} target="_blank"><i class="fa fa-chevron-right"></i></a>);
+                                    if (i < page.categories.length - 1) {
+                                        categories.push(<span>&nbsp;/&nbsp;</span>);
+                                    }
+                                });
+                                return categories;
+                            })()}
                         </div>
                     </div> : null}
                     
