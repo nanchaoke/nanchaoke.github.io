@@ -46,6 +46,8 @@ module.exports = class extends Component {
 
                     {!index && page.layout !== 'page' ? <div class="article-meta size-small is-uppercase level is-mobile article-meta-context article-meta-mobile">
                         <div class="level-left level-left-toggle">
+                            {/* yuanchuang */}
+                            {page.author && page.author === '南朝客' ? <span class="level-item yuanchuang"> 原创 </span> : <span class="level-item yuanchuang"> 转载 </span>}
                             {/* Last Update Date */}
                             {/*page.updated && <span class="level-item" dangerouslySetInnerHTML={{
                                 __html: _p('article.updated_at', `<time dateTime="${date_xml(page.updated)}" title="${date_xml(page.updated)}">${date(page.updated)}</time>`)
