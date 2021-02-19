@@ -119,22 +119,24 @@ module.exports = class extends Component {
                     {/* Content/Excerpt */}
                     <div class={`content ${index ? 'content-index' : 'content-context'}`} dangerouslySetInnerHTML={{ __html: index && page.excerpt ? page.excerpt : page.content }}></div>
 
-                    {/* Index Creation Date */}
-                    {index && page.date && <span class="level-item time-index">{date(page.date)}</span>}
+                    {index ? <div class="index-info">
+                        {/* Index Creation Date */}
+                        {page.date && <span class="level-item time-index">{date(page.date)}</span>}
 
-                    {/* Index Categories */}
-                    {index && page.categories && page.categories.length ? <span class="level-item categories-index">
-                        {(() => {
-                            const categories = [];
-                            page.categories.forEach((category, i) => {
-                                categories.push(<a class="link-muted" href={url_for(category.path)}>{category.name}</a>);
-                                if (i < page.categories.length - 1) {
-                                    categories.push(<span>&nbsp;/&nbsp;</span>);
-                                }
-                            });
-                            return categories;
-                        })()}
-                    </span> : null}
+                        {/* Index Categories */}
+                        {page.categories && page.categories.length ? <span class="level-item categories-index">
+                            {(() => {
+                                const categories = [];
+                                page.categories.forEach((category, i) => {
+                                    categories.push(<a class="link-muted" href={url_for(category.path)}>{category.name}</a>);
+                                    if (i < page.categories.length - 1) {
+                                        categories.push(<span>&nbsp;/&nbsp;</span>);
+                                    }
+                                });
+                                return categories;
+                            })()}
+                        </span> : null}
+                    </div> : null}
 
                     {/* Tags */}
                     {!index && page.tags && page.tags.length ? <div class="article-tags size-small mb-4">
