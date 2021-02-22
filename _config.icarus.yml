@@ -339,3 +339,9 @@ providers:
     fontcdn: loli
     # Name or URL of the fontawesome icon font CDN provider
     iconcdn: loli
+
+# sitemap
+sitemap:
+    path: sitemap.xml
+baidusitemap:
+    path: baidusitemap.xml
