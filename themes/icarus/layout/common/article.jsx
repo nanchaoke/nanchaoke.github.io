@@ -68,7 +68,7 @@ module.exports = class extends Component {
                                 })()}
                             </span> : null */}
                             {/* Creation Date */}
-                            {page.date && <span class="level-item time-index">{date(page.date)}</span>}
+                            {page.date && <span class="level-item time-index">{date(page.date) === date() ? '今天' : date(page.date)}</span>}
 
                             {/* Read time */}
                             {/* article && article.readtime && article.readtime === true ? <span class="level-item">
