@@ -29,12 +29,13 @@ module.exports = class extends Component {
             {/* Main content */}
             <div class={index?'card card-index':'card card-context'}>
                 {/* Thumbnail */}
-                {has_thumbnail(page) ? <div class={`card-image ${index ? 'card-image-index' : 'card-image-context'}`}>
+                {has_thumbnail(page) ? <div class={`card-image ${index ? 'card-image-index is-pc-only' : 'card-image-context'}`}>
                     <a class="image is-7by3 image-pic" href={index ? url_for(page.link || page.path) : `javascript:;`} target={index ? '_blank' : '_self'}>
                         {index ? <span class="light-move light-hide"></span> : null}
                         <img class="thumbnail" src={get_thumbnail(page)} alt={page.title || get_thumbnail(page)} />
                     </a>
                 </div> : null}
+
                 {/* Metadata */}
                 <article class={`card-content article${'direction' in page ? ' ' + page.direction : ''} ${index ? 'card-content-index' : 'card-content-context'}`} role="article">
                     {/* Title */}
@@ -115,14 +116,22 @@ module.exports = class extends Component {
                             })()}
                         </div>
                     </div> : null}
+
+                    {index ? <div class="info-line">
+                        <div class="content content-index info-line-content" dangerouslySetInnerHTML={{ __html: index && page.excerpt ? page.excerpt : page.content }}></div>
+
+                        {has_thumbnail(page) ? <div class="card-image card-image-index info-line-image">
+                            <a class="image is-7by3 image-pic" href={index ? url_for(page.link || page.path) : `javascript:;`} target={index ? '_blank' : '_self'}>
+                                {index ? <span class="light-move light-hide"></span> : null}
+                                <img class="thumbnail" src={get_thumbnail(page)} alt={page.title || get_thumbnail(page)} />
+                            </a>
+                        </div> : null}
+                    </div> : null}
                     
                     {/* Content/Excerpt */}
-                    <div class={`content ${index ? 'content-index' : 'content-context'}`} dangerouslySetInnerHTML={{ __html: index && page.excerpt ? page.excerpt : page.content }}></div>
+                    {!index ? <div class={`content ${index ? 'content-index' : 'content-context'}`} dangerouslySetInnerHTML={{ __html: index && page.excerpt ? page.excerpt : page.content }}></div> : null}
 
                     {index ? <div class="index-info">
-                        {/* Index Creation Date */}
-                        {page.date && <span class="level-item time-index">{date(page.date)}</span>}
-
                         {/* Index Categories */}
                         {page.categories && page.categories.length ? <span class="level-item categories-index">
                             {(() => {
@@ -136,6 +145,9 @@ module.exports = class extends Component {
                                 return categories;
                             })()}
                         </span> : null}
+
+                        {/* Index Creation Date */}
+                        {page.date && <span class="level-item time-index">{date(page.date)}</span>}
                     </div> : null}
 
                     {/* Tags */}

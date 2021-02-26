@@ -133,7 +133,7 @@ comment:
     app_key: 4ORXgpVVmS45OtHBRFVB4fCi
     notify: false # mail notifier , https://github.com/xCss/Valine/wiki
     verify: false # Verification code
-    placeholder: 不填其他，也可直接评论哦!
+    placeholder: 不填昵称、邮箱、网址，也可直接评论哦!
     guest_info: nick,mail,link
     pageSize: 20
 # Donate plugin configurations
