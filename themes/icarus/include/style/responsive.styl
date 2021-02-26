@@ -28,8 +28,11 @@
             align-self: flex-start
 
 +mobile()
+    .column
+        padding .75rem 1.75rem
+
     .section
-        padding: 0
+        padding 0 .8rem
         margin-top 5rem!important
         width 100%
 
@@ -51,7 +54,7 @@
             padding 0
 
         .card-content
-            padding 0 1.8rem .8rem
+            padding 1.75rem 0
             margin 0
             overflow hidden
             background white
@@ -211,6 +214,8 @@
         background white
         border-radius unset
         border-bottom 1px solid #f5f5f5
+    .card-index:last-child
+        border none
 
     .card-context
         width 100%!important
@@ -256,7 +261,8 @@
             margin-right 5%
             float left
         .info-line-image
-            width 35%
+            max-width 35%
+            height 72px
             float right
             display block
     
@@ -269,7 +275,8 @@
     .time-index
         float left
 
-    #more::after
-        content ''
-        display block
-        margin-bottom 2rem
+    .image-pic
+        border-radius 6px
+
+    .card-content-index
+        padding 0rem 0rem 0.8rem!important
