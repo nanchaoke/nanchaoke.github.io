@@ -204,6 +204,7 @@
     if (toc === 0) {
         $('.btn-menu').addClass('is-hide').remove();
         $('.search-text').addClass('search-text-long').removeClass('search-text');
+        $('.columns .column-right').addClass('is-hide');
     }
 
     // 导航按钮
