@@ -278,6 +278,14 @@
     // 首页生成描述简介引号
     $('.description-text').prepend('<i class="fa fa-quote-left"></i>').append('<i class="fa fa-quote-right"></i>');
 
+    // 手机端去掉简介引号
+    // var ismobile = /Android|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent);
+    var gzsm = $('.guanzhushengming').length;
+    if(gzsm === 0) {
+        $('.description-text i').remove();
+        $('.description-text .text').removeClass('text');
+    }
+
     // 首页描述生成加密图标
     $('.encrypt-tip').prepend('<i class="hbe-lock fa fa-lock"></i>');
 
