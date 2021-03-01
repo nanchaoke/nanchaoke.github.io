@@ -258,7 +258,7 @@
     // pc首页列表图片滑过光班效果
     var ismobile = /Android|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent); // 判断手机端
     var gzsm = $('.description-text').children().length; // 文章页标记,为1即表示当前不是文章内页,为3即是
-    if (gzsm != 3 && !ismobile) {
+    if (gzsm >= 1 && gzsm != 3 && !ismobile) {
         $('.card').on({
             mouseenter: function() {
                 if ($(this).find('.light-move').hasClass('light-hide')) {
@@ -267,6 +267,7 @@
                     $(this).find('.card-image').addClass('card-image-index-slide').removeClass('card-image-index-inslide');
                     $(this).find('.title-index').addClass('title-index-slide').removeClass('title-index-inslide');
                     $(this).find('.content-index').addClass('content-index-slide').removeClass('content-index-inslide');
+                    $(this).find('.index-info').addClass('index-info-slide').removeClass('index-info-inslide');
                 }
             },
             mouseleave: function() {
@@ -275,6 +276,7 @@
                 $(this).find('.card-image').removeClass('card-image-index-slide').addClass('card-image-index-inslide');
                 $(this).find('.title-index').removeClass('title-index-slide').addClass('title-index-inslide');
                 $(this).find('.content-index').removeClass('content-index-slide').addClass('content-index-inslide');
+                $(this).find('.index-info').removeClass('index-info-slide').addClass('index-info-inslide');
             }
         })
     }
