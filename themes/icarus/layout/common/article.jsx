@@ -49,12 +49,15 @@ module.exports = class extends Component {
                         <div class="level-left level-left-toggle">
                             {/* yuanchuang */}
                             {page.author && page.author === '南朝客' ? <span class="level-item yuanchuang"> 原创 </span> : <span class="level-item yuanchuang"> 转载 </span>}
+                            
                             {/* Last Update Date */}
                             {/*page.updated && <span class="level-item" dangerouslySetInnerHTML={{
                                 __html: _p('article.updated_at', `<time dateTime="${date_xml(page.updated)}" title="${date_xml(page.updated)}">${date(page.updated)}</time>`)
                             }}></span>/*}
+
                             {/* author */}
                             {page.author ? <span class="level-item"> {page.author} </span> : null}
+                            
                             {/* Categories */}
                             {/* page.categories && page.categories.length ? <span class="level-item">
                                 {(() => {
@@ -68,6 +71,7 @@ module.exports = class extends Component {
                                     return categories;
                                 })()}
                             </span> : null */}
+                            
                             {/* Creation Date */}
                             {page.date && <span class="level-item time-index">{date(page.date) === date() ? '今天' : date(page.date)}</span>}
 
@@ -79,6 +83,7 @@ module.exports = class extends Component {
                                     return `${_p('article.read_time', time.locale(index ? indexLaunguage : language).humanize())} (${_p('article.word_count', words)})`;
                                 })()}
                             </span> : null */}
+                            
                             {/* Visitor counter */}
                             {!index && plugins && plugins.busuanzi === true ? <span class="level-item" id="busuanzi_container_page_pv" dangerouslySetInnerHTML={{
                                 __html: _p('plugin.visit_count', '<span id="busuanzi_value_page_pv">0</span> ')
@@ -151,10 +156,17 @@ module.exports = class extends Component {
                     </div> : null}
 
                     {/* Tags */}
-                    {!index && page.tags && page.tags.length ? <div class="article-tags size-small mb-4">
+                    {/* !index && page.tags && page.tags.length ? <div class="article-tags size-small mb-4">
                         <span class="mr-2">#</span>
                         {page.tags.map(tag => {
                             return <a class="link-muted mr-2" rel="tag" href={url_for(tag.path)}>{tag.name}</a>;
+                        })}
+                    </div> : null */}
+
+                    {/* Tags */}
+                    {!index && page.tags && page.tags.length ? <div class="article-tags size-small mb-4">
+                        {page.tags.map(tag => {
+                            return <a class="link-muted mr-2 tagname" rel="tag" href={url_for(tag.path)}>{tag.name}</a>;
                         })}
                     </div> : null}
 
