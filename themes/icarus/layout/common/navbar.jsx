@@ -102,6 +102,9 @@ class Navbar extends Component {
                             <i class="fas fa-search"></i>
                         </a> : null}
                     </div>
+
+                    <div class="gz-qrcode" id="gz-qrcode"><i class="fa fa-qrcode"></i></div>
+                    <div class="gz-qrcode-img"><img src="/img/wxwbwz.png" alt="关注我，一起品读纵横的世界" title="关注我，一起品读纵横的世界" /></div>
                 </div>
             </div>
         </nav>;

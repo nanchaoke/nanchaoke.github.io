@@ -179,9 +179,9 @@ module.exports = class extends Component {
                             </p>
                         </div>
 
-                        <div class="guanzhuwo">
+                        {/* <div class="guanzhuwo">
                             <img src="/img/wxwbwz.png" alt="关注我，一起品读纵横的世界" title="关注我，一起品读纵横的世界" />
-                        </div>
+                        </div> */}
                     </div> : null}
 
                     {/* "Read more" button */}

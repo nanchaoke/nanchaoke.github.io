@@ -19,6 +19,9 @@ article
         .article-meta, .article-tags
             color: $text-light
 
+        .article-tags
+            margin-top 2.5rem
+
         .article-meta
             overflow-x: auto
             margin-bottom: 1rem
@@ -107,9 +110,6 @@ article
                 border-top 1px solid #d3d3d3
                 margin 5rem auto
 
-        .guanzhushengming
-            padding .5rem 0 2rem
-
         .guanzhuwo
             width 60%
             margin auto
@@ -119,12 +119,18 @@ article
 
         .shengming
             font-size 14px
-            border-top 1px solid #e0e0e0
-            border-bottom 1px solid #e0e0e0
             padding 1rem 0
-            margin 1rem 0
             line-height 1.8
             color #888
+            &::before, &::after
+                content ''
+                display block
+                height 1px
+                background #e0e0e0
+                margin-bottom 1rem
+            &::after
+                margin-top 1rem
+
 
             p
                 margin-bottom 0
@@ -211,7 +217,7 @@ article
     position: fixed
     top: 5rem
     right: 9%
-    z-index: 100
+    z-index: 10
     width: 240px
 
 .pinglunjuli
@@ -505,8 +511,8 @@ article
 .yuanchuang
     /* background #f0eef0 */
     border-radius 3px
-    padding 0.1rem 0.5rem 0
-    line-height 20px
+    padding 0 0.5rem 0
+    line-height 21px
     background #cecece
     color white
     font-size 12px
@@ -549,7 +555,7 @@ article
     display block
     margin-bottom 2rem
 
-.menu-label
+.column-right .menu-label
     border-radius 4px
     color white
     background #5CB85C
@@ -566,4 +572,37 @@ article
     border-radius 12px
     margin .2rem 0
 
-    
+.gz-qrcode
+    padding 19px 12px
+    width 38px
+    height 100%
+    cursor pointer
+    &:hover
+        background #fafafa
+        &>i
+            color #3273DC
+
+.gz-qrcode-img
+    position absolute
+    width 20rem
+    top 3.5rem
+    right 0
+    z-index 11
+    opacity 0
+    visibility hidden
+    transition .3s ease-out
+.gz-qrcode-img-show
+    top 4.5rem
+    opacity 1
+    visibility visible
+    transition .3s ease-out
+
+.back-all
+    width 100%
+    height 100%
+    background rgba(0, 0, 0, .3)
+    position fixed
+    top 0
+    bottom 0
+    left 0
+    z-index 3

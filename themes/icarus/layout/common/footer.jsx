@@ -34,6 +34,7 @@ class Footer extends Component {
                                 dangerouslySetInnerHTML={{ __html: visitorCounterTitle }}></span> : null}
                         </p>
                     </div>
+
                     <div class="level-end">
                         {Object.keys(links).length ? <div class="field has-addons">
                             {Object.keys(links).map(name => {
@@ -48,6 +49,8 @@ class Footer extends Component {
                     </div>
                 </div>
             </div>
+
+            <div class="back-all is-hide" id="back-all"></div>
         </footer>;
     }
 }

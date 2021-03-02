@@ -183,6 +183,9 @@
     // 显示/隐藏导航栏
     $('#nav-list').on('click', function() {
         if ($('#navbar-menu').hasClass('is-hide')) {
+            // 出现背景
+            $('#back-all').addClass('is-show').removeClass('is-hide');
+
             // 导航栏
             $('#navbar-menu').removeClass('is-hide').addClass('is-show').children().removeClass('is-totop').addClass('is-top');
 
@@ -190,6 +193,9 @@
             $(this).children('i:first-child').removeClass('back-origin').addClass('rotate-line-first');
             $(this).children('i:last-child').removeClass('back-origin').addClass('rotate-line-last');
         } else {
+            // 隐藏背景
+            $('#back-all').removeClass('is-show').addClass('is-hide');
+
             // 导航栏
             $('#navbar-menu').addClass('is-hide').removeClass('is-show').children().addClass('is-totop').removeClass('is-top');
 
@@ -227,31 +233,49 @@
         }
     })
 
+    // 移动端点击背景隐藏导航
+    $('#back-all').on('click', function() {
+        // 隐藏背景
+        $('#back-all').removeClass('is-show').addClass('is-hide');
 
-    // 上下滑动显隐导航栏
+        // 导航栏
+        $('#navbar-menu').addClass('is-hide').removeClass('is-show').children().addClass('is-totop').removeClass('is-top');
+
+        // 点击条变化
+        $('#nav-list').children('i:first-child').removeClass('rotate-line-first').addClass('back-origin');
+        $('#nav-list').children('i:last-child').removeClass('rotate-line-last').addClass('back-origin');
+    })
+
+
+    // 移动端上下滑动显隐导航栏
     $(document).ready(function() {
         var p = 0,
             t = 0;
  
         $(window).scroll(function(e) {
-            p = $(this).scrollTop();
-            // console.log(p);
-
-            if (t <= p) {
-                // 下滑
-                // console.log("down");
-                if (p > 40) {
-                    $('#navbar-toggle').addClass('navbar-toggle-hide').removeClass('navbar-toggle-show');
-                }                
+            // 如果已展开导航，即背景出现时，不允许滑动
+            if ($('#back-all').hasClass('is-show')) {
+                return;
             } else {
-                // 上滑
-                // console.log("up");
-                $('#navbar-toggle').removeClass('navbar-toggle-hide').addClass('navbar-toggle-show');
+                p = $(this).scrollTop();
+                // console.log(p);
+
+                if (t <= p) {
+                    // 下滑
+                    // console.log("down");
+                    if (p > 40) {
+                        $('#navbar-toggle').addClass('navbar-toggle-hide').removeClass('navbar-toggle-show');
+                    }                
+                } else {
+                    // 上滑
+                    // console.log("up");
+                    $('#navbar-toggle').removeClass('navbar-toggle-hide').addClass('navbar-toggle-show');
+                }
+                
+                setTimeout(function() {
+                    t = p;
+                }, 0);
             }
-            
-            setTimeout(function() {
-                t = p;
-            }, 0);
         });
     });
 
@@ -295,4 +319,14 @@
 
     // 文章页提示文字前生成加密图标
     $('#hexo-blog-encrypt label').prepend('<i class="hbe-lock fa fa-lock"></i>');
+
+    // 关注二维码效果
+    $('#gz-qrcode').on({
+        mouseenter: function() {
+            $('.gz-qrcode-img').addClass('gz-qrcode-img-show');
+        },
+        mouseleave: function() {
+            $('.gz-qrcode-img').removeClass('gz-qrcode-img-show');
+        }
+    })
 }(jQuery, window.moment, window.ClipboardJS, window.IcarusThemeSettings));
