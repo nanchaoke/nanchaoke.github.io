@@ -15,7 +15,7 @@ abbrlink: 82e8962b
 thumbnail: https://upload.godread.cn/blog/meiguofalun.jpg
 ---
 
-<div class="description-text"><span class="text">全球性虚假信息集散地，是如何向主流靠近的？</span></div>
+<div class="description">全球性虚假信息集散地，是如何向主流靠近的？</div>
 
 <!-- more -->
 

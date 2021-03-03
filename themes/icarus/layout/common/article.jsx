@@ -93,7 +93,7 @@ module.exports = class extends Component {
 
                     {!index && page.layout !== 'page' && page.categories && page.categories.length ? <div class="categories-list">
                         <div class="categories-left">
-                            <span>收录于分类</span>
+                            <span id="getCategory">收录于分类</span>
                             <span class="level-item">
                                 {(() => {
                                     const categories = [];
@@ -130,11 +130,18 @@ module.exports = class extends Component {
                                 {index ? <span class="light-move light-hide"></span> : null}
                                 <img class="thumbnail" src={get_thumbnail(page)} alt={page.title || get_thumbnail(page)} />
                             </a>
-                        </div> : null}
+                        </div> : <div class="card-image card-image-index info-line-image">
+                            <a class="image is-7by3 image-pic" href={index ? url_for(page.link || page.path) : `javascript:;`} target={index ? '_blank' : '_self'}>
+                                {index ? <span class="light-move light-hide"></span> : null}
+                                <img class="thumbnail" src="/img/noimg-back.jpg" alt="暂时无图" />
+                            </a>
+                        </div>}
+
+                        <div class="mobile-pwd is-hide"></div>
                     </div> : null}
                     
                     {/* Content/Excerpt */}
-                    {!index ? <div class={`content ${index ? 'content-index' : 'content-context'}`} dangerouslySetInnerHTML={{ __html: index && page.excerpt ? page.excerpt : page.content }}></div> : null}
+                    {!index ? <div class={`content ${index ? 'content-index' : 'content-context'}`} dangerouslySetInnerHTML={{ __html: index && page.excerpt ? page.excerpt : page.content }} id="cur-article"></div> : null}
 
                     {index ? <div class="index-info">
                         {/* Index Categories */}
@@ -188,6 +195,7 @@ module.exports = class extends Component {
                     {/*index && page.excerpt ? <a class="article-more button is-small size-small" href={`${url_for(page.link || page.path)}#more`}>{__('article.more')}
                         <i class="fa fa-caret-right famore"></i>
                     </a> : null*/}
+                    
                     {/* Share button */}
                     {!index ? <Share config={config} page={page} helper={helper} /> : null}
                 </article>

@@ -46,9 +46,11 @@
             .article-meta-context
                 margin-top 1rem!important
             .content
-                font-size 17.4px
-                line-height 2.35rem
+                /* font-size 17.4px
+                font-size 1.28rem */
                 color #3b3b3b
+                font-size 18px
+                line-height 2.35rem
                 blockquote
                     font-size 1.1rem
 
@@ -272,7 +274,8 @@
         width 32%
         height auto
         font-size 11px
-        padding 0.2rem 0 0.8rem 0
+        /* padding 0.2rem 0 0.8rem 0 */
+        position relative
         float right
         .info-line-content
             width 60%
@@ -330,3 +333,23 @@
 
     .yuanchuang
         color white
+        line-height 20px
+
+    .mobile-pwd::after
+        content '密'
+        background #ff0000
+        width 80px
+        height 80px
+        display block
+        border-radius 100%
+        line-height 110px
+        text-indent 12px
+        position absolute
+        top -40px
+        right -40px
+        color white
+        font-size 20px
+        font-weight bold
+
+    .description
+        display none

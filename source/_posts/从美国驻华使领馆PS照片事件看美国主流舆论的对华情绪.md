@@ -14,7 +14,7 @@ date: 2020-07-14 17:12:00
 thumbnail: https://upload.godread.cn/blog/congmeiguozhu.jpg
 ---
 
-<div class="description-text"><span class="text">对华情绪的舆论先行，来源于全民对″自由信仰″的政治化，低智化。</span></div>
+<div class="description">对华情绪的舆论先行，来源于全民对″自由信仰″的政治化，低智化。</div>
 
 <!-- more -->
 

@@ -313,7 +313,6 @@ article
     height 22rem
     float left
     margin 0 1.333% 1rem 0
-    background #f5f5f5
     overflow hidden
     &:nth-child(4n)
         margin-right 0
@@ -343,7 +342,7 @@ article
 
 .card-content-index
     padding 0.8rem!important
-    background #f5f5f5
+    background #f9f6f9
     border-radius 0 0 4px 4px
 
 .content-index
@@ -468,7 +467,7 @@ article
     margin 0
     transition .3s ease-out
 
-.description-text
+.description
     background none
     padding 0
     border none
@@ -491,7 +490,7 @@ article
 .encrypt-tip
     color #828a92
     font-size 14px!important
-    &:before
+    &::before
         content '密'
         background #ff0000
         width 50px
@@ -610,7 +609,5 @@ article
     left 0
     z-index 11
 
-.container
-    .navbar
-        .navbar-menu
-            margin-right -2.4rem
+.navbar-main .container .navbar-menu
+    margin-right -2.4rem!important

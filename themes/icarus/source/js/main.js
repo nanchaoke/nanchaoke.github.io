@@ -219,7 +219,7 @@
         $('#back-all').removeClass('is-show').addClass('is-hide');
 
         var tocNumber = $('#toc').length;
-        
+
         if ($('#navbar-menu').hasClass('is-show') && tocNumber > 0) {
             // 导航栏
             $('#navbar-menu').addClass('is-hide').removeClass('is-show').children().addClass('is-totop').removeClass('is-top');
@@ -285,8 +285,7 @@
 
     // pc首页列表图片滑过光班效果
     var ismobile = /Android|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent); // 判断手机端
-    var gzsm = $('.description-text').children().length; // 文章页标记,为1即表示当前不是文章内页,为3即是
-    if (gzsm >= 1 && gzsm != 3 && !ismobile) {
+    if (!ismobile) {
         $('.card').on({
             mouseenter: function() {
                 if ($(this).find('.light-move').hasClass('light-hide')) {
@@ -309,16 +308,12 @@
         })
     }
 
-    // 首页生成描述简介引号
-    $('.description-text').prepend('<i class="fa fa-quote-left"></i>').append('<i class="fa fa-quote-right"></i>');
-
-    // 手机端首页去掉简介引号
-    if(gzsm != 1) {
-        $('.description-text i').remove();
-        $('.description-text .text').removeClass('text');
+    // 手机端首页-加密文章添加标记
+    if(ismobile) {
+        $('.encrypt-tip').parents('.info-line').find('.mobile-pwd').removeClass('is-hide').addClass('is-show');
     }
 
-    // 首页描述生成加密图标
+    // pc首页描述生成加密图标
     $('.encrypt-tip').prepend('<i class="hbe-lock fa fa-lock"></i>');
 
     // 文章页提示文字前生成加密图标
@@ -333,4 +328,7 @@
             $('.gz-qrcode-img').removeClass('gz-qrcode-img-show');
         }
     })
+
+    // 文章内页去掉简介
+    $('#cur-article .description').remove();
 }(jQuery, window.moment, window.ClipboardJS, window.IcarusThemeSettings));

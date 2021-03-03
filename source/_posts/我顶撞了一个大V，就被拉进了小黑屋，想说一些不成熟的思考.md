@@ -15,7 +15,7 @@ abbrlink: aec317c1
 thumbnail: https://upload.godread.cn/blog/wodingzhuangle.jpg
 ---
 
-<div class="description-text"><span class="text">大V对异见的态度让我很不自在。在国内语境下，大V有特殊的意义，尤其在今年，传统公知集体沦陷于对内的宣传上，公知横行又与大V密切相关，我本以为，无论是哪个阵营，有怎样不同的视角与阐述方式，都应对异见者持有保底的默契包容，这是自由与容忍的最低限度。</span></div>
+<div class="description">大V对异见的态度让我很不自在。在国内语境下，大V有特殊的意义，尤其在今年，传统公知集体沦陷于对内的宣传上，公知横行又与大V密切相关，我本以为，无论是哪个阵营，有怎样不同的视角与阐述方式，都应对异见者持有保底的默契包容，这是自由与容忍的最低限度。</div>
 
 <!-- more -->
 
