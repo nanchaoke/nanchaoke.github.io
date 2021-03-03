@@ -215,7 +215,11 @@
 
     // 导航按钮
     $('.btn-menu').on('click', function() {
+        // 隐藏背景
+        $('#back-all').removeClass('is-show').addClass('is-hide');
+
         var tocNumber = $('#toc').length;
+        
         if ($('#navbar-menu').hasClass('is-show') && tocNumber > 0) {
             // 导航栏
             $('#navbar-menu').addClass('is-hide').removeClass('is-show').children().addClass('is-totop').removeClass('is-top');

@@ -74,14 +74,13 @@
                 font-size 14px!important
 
             .title
-                width 62%
+                width 65%
                 height auto
                 line-height 1.5
                 margin-bottom 0
                 .nav-link
                     /*line-height 1.125*/
                     line-height 1.5
-                    display inline-block
                     font-size 1.25rem!important
                     font-weight bold
 
@@ -214,7 +213,7 @@
         &::after
            content ''
            display block
-           height 1px
+           height 0px
            background #f5f5f5 
 
     .card-index:last-child
@@ -256,10 +255,10 @@
         margin-right -.75rem!important
 
     .info-line
+        width 32%
         height auto
         font-size 11px
         padding 0.2rem 0 0.8rem 0
-        width 35%
         float right
         .info-line-content
             width 60%
@@ -269,7 +268,7 @@
         .info-line-image
             /* max-width 35%
             float right */
-            height 72px
+            height 77.57px
             display block
     
     .is-pc-only
@@ -291,10 +290,11 @@
         border-radius 6px
 
     .card-content-context
-        padding 0 .8rem 0rem !important
+        padding 0 .4rem 0rem !important
 
     .card-content-index
-        padding 0.5rem 0 1rem 0 !important
+        padding 0.5rem 0 0.5rem 0 !important
+        overflow hidden
 
     .gz-qrcode, .gz-qrcode-img
         display none
@@ -304,7 +304,11 @@
 
     .categories-index
         color #ababab
-        font-size 11px
+        font-size 12px
+        margin-right .5rem
 
     .shengming
         font-size 13px
+
+    #toc-mask
+        z-index 9
