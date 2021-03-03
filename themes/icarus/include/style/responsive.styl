@@ -35,9 +35,9 @@
                 padding 1rem
 
     .section
-        padding 0 .8rem
-        margin-top 5rem!important
         width 100%
+        margin-top 5rem!important
+        padding 0.5rem .8rem
 
     article
         &.article
@@ -74,8 +74,10 @@
                 font-size 14px!important
 
             .title
+                width 62%
                 height auto
                 line-height 1.5
+                margin-bottom 0
                 .nav-link
                     /*line-height 1.125*/
                     line-height 1.5
@@ -232,8 +234,7 @@
             height auto!important
 
     .context-title
-        height auto
-        overflow unset
+        width auto!important
         height auto
         overflow unset
         line-height 1.8rem
@@ -256,14 +257,19 @@
 
     .info-line
         height auto
+        font-size 11px
+        padding 0.2rem 0 0.8rem 0
+        width 35%
+        float right
         .info-line-content
             width 60%
             margin-right 5%
             float left
+            display none
         .info-line-image
-            max-width 35%
+            /* max-width 35%
+            float right */
             height 72px
-            float right
             display block
     
     .is-pc-only
@@ -274,15 +280,31 @@
 
     .time-index
         float left
+        font-size 11px
+
+    .time-context
+        float left
+        font-size 14px
+        color inherit
 
     .image-pic
         border-radius 6px
 
+    .card-content-context
+        padding 0 .8rem 0rem !important
+
     .card-content-index
-        padding 0rem 0rem 0.8rem!important
+        padding 0.5rem 0 1rem 0 !important
 
     .gz-qrcode, .gz-qrcode-img
         display none
 
     .level-end
         margin-top 0.5rem
+
+    .categories-index
+        color #ababab
+        font-size 11px
+
+    .shengming
+        font-size 13px
