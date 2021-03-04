@@ -3,12 +3,41 @@ bulma-stylus-root = '../../../../node_modules/bulma-stylus/stylus'
 /* ---------------------------------
  *   Override Bulma CSS Framework
  * --------------------------------- */
+@font-face
+   font-family SourceCodePro Medium
+   font-style normal
+   src url("/fonts/SourceCodePro-Medium.ttf")
+
+@font-face
+   font-family wqydkzh
+   font-style normal
+   src url("/fonts/文泉驿等宽正黑.ttf")
+
+@font-face
+   font-family fzlthjt
+   font-style normal
+   src url("/fonts/方正兰亭黑简体.TTF")
+
+@font-face
+   font-family fzlthExtralight
+   font-style normal
+   src url("/fonts/FZLTHPro_GB18030_Xian.otf")
+
+@font-face
+   font-family syht
+   font-style normal
+   src url("/fonts/SourceHanSansCN.ttf")
+
 $body-size ?= 14px
 $body-background-color ?= #fff
 
 /* $family-sans-serif ?= Roboto, Trebuchet MS, segoe ui, Ubuntu, 'Open Sans', 'Microsoft YaHei', sans-serif */
-$family-sans-serif ?= 'PingFangSC-regular', 'Microsoft YaHei', Roboto, Trebuchet MS, segoe ui, Ubuntu, 'Open Sans', sans-serif
-$family-code ?= 'Source Code Pro', monospace, 'Microsoft YaHei'
+
+/* $family-sans-serif ?= 'PingFangSC-regular', 'Microsoft YaHei', Roboto, Trebuchet MS, segoe ui, Ubuntu, 'Open Sans', sans-serif */
+
+$family-sans-serif ?= 'microsoft yahei'
+
+$family-code ?= 'SourceCodePro Medium', monospace, 'Microsoft YaHei', syht
 
 $primary ?= $blue
 $custom-colors ?= {

@@ -138,7 +138,7 @@ Facebook的CEO扎克伯格宣布，Facebook和其旗下的Instagram将无限期�
 
 于是网上又有一种说法，说是这些别有用心的人带领示威者冲进了国会，而警卫队有几个人给示威者开门放行。（以下据说是警卫队开门的视频，自行判断）
 
-<video src="https://upload.godread.cn/blog/twitterins_video_01.mp4" controls="controls" style="width: 100%; max-height: 400px; background: #eee; margin: auto; display: block;">
+<video class="article-video" src="https://upload.godread.cn/blog/twitterins_video_01.mp4" controls="controls">
     您的浏览器不支持播放该视频，请右键获取视频链接查看。
 </video>
 

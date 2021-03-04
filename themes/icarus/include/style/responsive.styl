@@ -28,6 +28,9 @@
             align-self: flex-start
 
 +mobile()
+    body
+        font-family fzlthjt, 'fzlthExtralight', 'SourceCodePro Medium', wqydkzh
+
     .column
         padding .75rem 1.75rem
         .card-content
@@ -47,10 +50,13 @@
                 margin-top 1rem!important
             .content
                 /* font-size 17.4px
-                font-size 1.28rem */
+                font-size 1.28rem
+                font-size 18px */
+
+                font-size 17px
                 color #3b3b3b
-                font-size 18px
                 line-height 2.35rem
+                /* font-family fzlthjt, 'SourceCodePro-Medium', wqydkzh */
                 blockquote
                     font-size 1.1rem
 
@@ -165,7 +171,6 @@
 
     .navbar-main .navbar-item-new
         width 100%
-        color #666
         display unset
         font-size 16.5px
         font-weight 500
@@ -311,8 +316,9 @@
         padding 0 .4rem 0rem !important
 
     .card-content-index
-        padding 0.5rem 0 0.5rem 0 !important
+        border none
         overflow hidden
+        padding 0.5rem 0 0.5rem 0 !important
 
     .gz-qrcode, .gz-qrcode-img
         display none
@@ -334,6 +340,7 @@
     .yuanchuang
         color white
         line-height 20px
+        padding-top 2px
 
     .mobile-pwd::after
         content '密'
@@ -350,6 +357,3 @@
         color white
         font-size 20px
         font-weight bold
-
-    .description
-        display none

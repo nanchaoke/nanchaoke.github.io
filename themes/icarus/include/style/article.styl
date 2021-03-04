@@ -105,11 +105,14 @@ article
                 display block
             }
 
-            .fenjie
-                width 35%
-                border-top 1px solid #d3d3d3
-                margin 5rem auto
-                transform scaleY(.5)
+            .fenjie::after
+            	content ''
+            	display block
+            	width 35%
+            	height 1px
+            	margin 5rem auto
+            	background #d3d3d3
+            	transform scaleY(.5)
 
         .guanzhuwo
             width 60%
@@ -343,7 +346,9 @@ article
 .card-content-index
     padding 0.8rem!important
     background #f9f6f9
-    border-radius 0 0 4px 4px
+    border-radius 0 0 6px 6px
+    border 1px solid #f0f0f0
+    border-top transparent
 
 .content-index
     line-height 1rem
@@ -389,7 +394,7 @@ article
             background #eef3fc
             border-radius 10px
             overflow hidden
-            padding 1rem
+            padding 1rem 1rem 0 1rem
             margin-bottom 1rem
             cursor pointer
             position relative
@@ -410,9 +415,6 @@ article
                     color #777
                     font-size 14px
                     line-height 1rem
-                    position absolute
-                    left 1rem
-                    bottom 1rem
             &>a:last-child
                 &>img
                     max-width 24%
@@ -483,6 +485,9 @@ article
     &>.fa-quote-left
         position absolute
         top -.5rem
+
+#cur-article .description
+    display none
 
 .hbe-button
     margin-top 2rem
@@ -611,3 +616,10 @@ article
 
 .navbar-main .container .navbar-menu
     margin-right -2.4rem!important
+
+.article-video
+	width 100%
+	max-height 400px
+	background #f8f9fa
+	margin auto
+	display block
