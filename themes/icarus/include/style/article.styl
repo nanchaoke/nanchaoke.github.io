@@ -256,7 +256,7 @@ article
 .footer
     padding: 1rem 0 1rem
     &>.container
-        padding: 0 1rem
+        padding: 0
 
 .pagination
     padding: 1rem
@@ -361,12 +361,11 @@ article
 .card-image-context
     height 28rem
     padding 0 1.5rem
-    img
-        height auto !important
+    .image-pic img
+        border-radius 6px
     
 .image-pic
     height 100%
-    border-radius 4px 4px 0 0
     display block
     overflow hidden
 
@@ -387,7 +386,7 @@ article
     display -webkit-inline-box
 
 .card-content-context
-    padding 0 1.5rem 1.5rem
+    padding 3rem 1.5rem 1.5rem
 
 .time-index
     float right
@@ -470,6 +469,8 @@ article
     opacity .5
 
 // 首页card滑过效果
+.card-image-index
+    border-radius 6px 6px 0 0
 .card-image-index-slide
     height 8rem
     transition .3s ease-out

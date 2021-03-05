@@ -351,4 +351,7 @@
         $('.gzgzh-main .gzgzh-img').addClass('is-hide-move').removeClass('is-show-move');
         $('#mobile-qrcode').attr('data-code', 0);
     })
+
+    // 文章内页图片所在P标签切边
+    $('.gallery-item, article img').parent('p').css('padding', '0');
 }(jQuery, window.moment, window.ClipboardJS, window.IcarusThemeSettings));
