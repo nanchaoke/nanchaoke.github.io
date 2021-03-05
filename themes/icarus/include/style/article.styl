@@ -6,6 +6,26 @@ $article-font-size ?= 16px
 .container
     text-align unset
 
+a:hover, .level .level-item:hover
+    color #3273dc
+
+.searchbox
+    display unset!important
+    opacity 0
+    visibility hidden
+    transition .3s ease-out
+
+.searchbox-container
+    position fixed
+    left 50%
+    margin-left -270px
+
+.show
+    display unset!important
+    opacity 1
+    visibility visible
+    transition .3s ease-out
+
 article
     &.media
         .media-content
@@ -112,7 +132,6 @@ article
             	height 1px
             	margin 5rem auto
             	background #d3d3d3
-            	transform scaleY(.5)
 
         .guanzhuwo
             width 60%
@@ -125,17 +144,15 @@ article
             font-size 14px
             padding 1rem 0
             line-height 1.8
-            color #888
+            color #a1a1a1
             &::before, &::after
                 content ''
                 display block
                 height 1px
                 background #e0e0e0
                 margin-bottom 1rem
-                transform scaleY(.5)
             &::after
                 margin-top 1rem
-                transform scaleY(.5)
 
             p
                 margin-bottom 0
@@ -253,14 +270,24 @@ article
 
 /* 类响应式样式 */
 .is-hide
-    opacity 0
-    visibility hidden
+    opacity 0!important
+    visibility hidden!important
     transition .3s ease-out
+
+.is-hide-move
+    width 0
+    transform scale(.96)
+    transition .35s ease-out
     
 .is-show
-    opacity 1
-    visibility visible
+    opacity 1!important
+    visibility visible!important
     transition .3s ease-out
+
+.is-show-move
+    width auto
+    transform scale(1)
+    transition .35s ease-out
 
 .is-mobile-new
         display none!important
@@ -624,3 +651,10 @@ article
 	background #f8f9fa
 	margin auto
 	display block
+
+.mobile-qrcode
+    display none
+
+.gzgzh-main
+    opacity 0
+    visibility hidden

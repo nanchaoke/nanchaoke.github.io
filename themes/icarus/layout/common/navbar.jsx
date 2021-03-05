@@ -82,6 +82,11 @@ class Navbar extends Component {
                             const item = menu[name];
                             return <a class={classname({ 'navbar-item': true, 'is-active': item.active, 'navbar-item-new': true, 'is-totop':true})} href={item.url}>{name}</a>;
                         })}
+
+                        <div class="mobile-qrcode" id="mobile-qrcode" data-code="0">
+                            <i class="fa fa-qrcode"></i>
+                            <span class="gzgzh">关注公众号</span>
+                        </div>
                     </div> : null}
 
                     <div class="navbar-end is-pc">

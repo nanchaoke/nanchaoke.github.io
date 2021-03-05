@@ -199,6 +199,8 @@ module.exports = class extends Component {
                     {/* Share button */}
                     {!index ? <Share config={config} page={page} helper={helper} /> : null}
                 </article>
+
+                <div class="gzgzh-main is-hide"><img class="gzgzh-img is-hide-move" src="/img/wxwbwz.png" alt="关注我，一起品读纵横的世界" title="关注我，一起品读纵横的世界" /></div>
             </div>
             {/* Donate button */}
             {!index ? <Donates config={config} helper={helper} /> : null}

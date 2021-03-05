@@ -331,4 +331,24 @@
 
     // 文章内页去掉简介
     $('#cur-article .description').remove();
+
+    // 移动端关注二维码
+    $('#mobile-qrcode').on('click', function() {
+        var code = $(this).data('code');
+        if (code === 0) {
+            $('.gzgzh-main').addClass('is-show').removeClass('is-hide');
+            $('.gzgzh-main .gzgzh-img').addClass('is-show-move').removeClass('is-hide-move');
+            $(this).attr('data-code', 1);
+        } else if(code === 1) {
+            $('.gzgzh-main').addClass('is-hide').removeClass('is-show');
+            $('.gzgzh-main .gzgzh-img').addClass('is-hide-move').removeClass('is-show-move');
+            $(this).attr('data-code', 0);
+        }
+    })
+    // 点击二维码图片后消失
+    $(document).on('click', '.gzgzh-main', function() {
+        $(this).addClass('is-hide').removeClass('is-show');
+        $('.gzgzh-main .gzgzh-img').addClass('is-hide-move').removeClass('is-show-move');
+        $('#mobile-qrcode').attr('data-code', 0);
+    })
 }(jQuery, window.moment, window.ClipboardJS, window.IcarusThemeSettings));
