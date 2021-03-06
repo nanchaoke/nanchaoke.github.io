@@ -159,7 +159,7 @@ article
 
 .level-item
     color #8d8d8d
-    line-height 22px
+    font-size 12px
 
 .rtl
     direction: rtl
@@ -312,17 +312,17 @@ article
     transition .3s ease-out
 
 .title-index
-    font-size 22px
-    /* color #24292e */
-    color #3b3b3b
+    font-size 16px!important
+    color #24292e
     overflow hidden
-    line-height 1.8rem
+    /* line-height 1.8rem */
+    line-height 25px
     text-overflow ellipsis
     -webkit-line-clamp 2
     -webkit-box-orient vertical
     display -webkit-inline-box
-    &:hover
-        color: #3273dc
+    &:hover, &>a:hover
+        color #24292e!important
 
 .context-title
     height auto
@@ -353,7 +353,7 @@ article
 
 .card-image
     padding 0
-    height 9.28rem
+    height 9.85rem
     border-radius 6px 6px 0 0
     overflow hidden
     width 100%
@@ -372,7 +372,8 @@ article
 
 .card-content-index
     padding 0.8rem!important
-    background #f9f6f9
+    /* background #f9f6f9 */
+    background #f4f4f4
     border-radius 0 0 6px 6px
     border 1px solid #f0f0f0
     border-top transparent
@@ -391,13 +392,10 @@ article
 
 .time-index
     float right
-    /* color #999 */
-    color #ababab
     margin-bottom 0!important
 
 .categories-index
     float left
-    color #999
     margin-right 1rem
 
 .card-comment
@@ -473,27 +471,28 @@ article
 .card-image-index
     border-radius 6px 6px 0 0
 .card-image-index-slide
-    height 8rem
+    height 8.5rem
     transition .3s ease-out
 .card-image-index-inslide
     transition .3s ease-out
 
 .title-index-slide
-    margin-bottom 0.5rem!important
+    line-height 28px
     transition .3s ease-out
+    margin-bottom 0.5rem!important
 .title-index-inslide
     margin-bottom 0.5rem
     transition .3s ease-out
     
 .content-index-slide
-    margin 0.5rem 0 1.5rem 0!important
+    margin 1rem 0 1.5rem 0!important
     transition .3s ease-out
 .content-index-inslide
     margin 0 0 1rem 0!important
     transition .3s ease-out
 
 .index-info-slide
-    margin 1rem 0
+    margin 1.2rem 0 .5rem
     transition .3s ease-out
 .index-info-inslide
     margin 0
@@ -503,9 +502,9 @@ article
     background none
     padding 0
     border none
-    line-height 1.8rem
+    line-height 1.6rem
     /* color #828a92 */
-    color #ababab
+    color #909090
     font-size 14px
     position relative
     .text
@@ -660,3 +659,11 @@ article
 .gzgzh-main
     opacity 0
     visibility hidden
+
+.lg-toolbar
+	top unset!important
+	bottom 0
+.lg-sub-html
+	bottom 2.5rem!important
+.lg-outer .lg-img-wrap
+	padding 0!important

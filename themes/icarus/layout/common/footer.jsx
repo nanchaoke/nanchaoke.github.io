@@ -50,6 +50,8 @@ class Footer extends Component {
                 </div>
             </div>
 
+            <div class="gzgzh-main is-hide"><img class="gzgzh-img is-hide-move" src="/img/wxwbwz.png" alt="关注我，一起品读纵横的世界" title="关注我，一起品读纵横的世界" /></div>
+
             <div class="back-all is-hide" id="back-all"></div>
         </footer>;
     }
