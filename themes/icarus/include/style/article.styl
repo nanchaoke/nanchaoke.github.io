@@ -353,14 +353,12 @@ article
 
 .card-image
     padding 0
-    height 9.85rem
     border-radius 6px 6px 0 0
     overflow hidden
     width 100%
 
 .card-image-context
-    height 28rem
-    padding 0 1.5rem
+    padding 0 1.6rem 2rem 1.6rem
     .image-pic img
         border-radius 6px
         height auto!important
@@ -441,12 +439,11 @@ article
                     font-size 14px
                     line-height 1rem
                     float left
-            &>a:last-child
-                &>img
-                    max-width 24%
-                    height 60px
-                    border-radius 6px
-                    float right
+            &>img
+                max-width 24%
+                height 60px
+                border-radius 6px
+                float right
 
 .light-hide
     opacity 0
@@ -469,15 +466,16 @@ article
 
 // 首页card滑过效果
 .card-image-index
-    border-radius 6px 6px 0 0
+	height 9.822rem
+	transition .3s ease-out
 .card-image-index-slide
     height 8.5rem
     transition .3s ease-out
 .card-image-index-inslide
+	height 9.822rem
     transition .3s ease-out
 
 .title-index-slide
-    line-height 28px
     transition .3s ease-out
     margin-bottom 0.5rem!important
 .title-index-inslide
@@ -485,7 +483,7 @@ article
     transition .3s ease-out
     
 .content-index-slide
-    margin 1rem 0 1.5rem 0!important
+    margin .6rem 0 1.5rem 0!important
     transition .3s ease-out
 .content-index-inslide
     margin 0 0 1rem 0!important
@@ -668,3 +666,8 @@ article
 	bottom 2.5rem!important
 .lg-outer .lg-img-wrap
 	padding 0!important
+
+.image.is-7by3
+	padding-top 0
+	img
+		position unset
