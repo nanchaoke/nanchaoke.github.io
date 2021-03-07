@@ -95,6 +95,11 @@ article
                 overflow-wrap: break-word
 
             blockquote
+                font-size 1rem
+                color #828a92
+                line-height 1.8rem
+                border none
+                padding .6rem 1.2rem
                 &.pullquote
                     float: right
                     max-width: 50%
@@ -111,19 +116,14 @@ article
                 .message-body
                     border: none
 
-            blockquote
-                font-size 1rem
-                color #828a92
-                line-height 1.8rem
-
             &>p:not(:last-child) {
                 margin-bottom 1.5em
             }
 
-            img {
+            img
+                max-width 100%
                 margin auto
                 display block
-            }
 
             .fenjie::after
             	content ''
@@ -133,12 +133,12 @@ article
             	margin 5rem auto
             	background #d3d3d3
 
+            strong
+                color #212121
+
         .guanzhuwo
             width 60%
             margin auto
-        @media screen and (max-width: 767px)
-            .guanzhuwo
-                width  100%
 
         .shengming
             font-size 14px
@@ -348,7 +348,8 @@ article
         margin-right 0
 
 .card-context
-    width 71%
+    /* width 71% */
+    width 67.8%
     margin auto
 
 .card-image
@@ -358,7 +359,8 @@ article
     width 100%
 
 .card-image-context
-    padding 0 1.6rem 2rem 1.6rem
+    padding 0 1.6rem 0 1.6rem
+    margin-bottom 2rem
     .image-pic img
         border-radius 6px
         height auto!important
@@ -428,7 +430,7 @@ article
                 text-decoration none
                 &>span:first-child
                     width 100%
-                    color #3b3b3b
+                    color #353535
                     font-weight bold
                     display inline-block
                     line-height 1.6rem
@@ -646,13 +648,6 @@ article
 .navbar-main .container .navbar-menu
     margin-right -2.4rem!important
 
-.article-video
-	width 100%
-	max-height 400px
-	background #f8f9fa
-	margin auto
-	display block
-
 .mobile-qrcode
     display none
 
@@ -675,3 +670,12 @@ article
 
 .lg-close
 	margin-right 38%
+
+.article-video
+    width 100%
+    max-height 400px
+    overflow hidden
+    video
+        width 100%
+        max-height inherit
+        background #f8f9fa

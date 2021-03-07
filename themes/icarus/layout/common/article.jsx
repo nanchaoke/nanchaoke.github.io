@@ -56,7 +56,7 @@ module.exports = class extends Component {
                             }}></span>/*}
 
                             {/* author */}
-                            {page.author ? <span class="level-item"> {page.author} </span> : null}
+                            {page.author ? <span class="level-item time-context"> {page.author} </span> : null}
                             
                             {/* Categories */}
                             {/* page.categories && page.categories.length ? <span class="level-item">

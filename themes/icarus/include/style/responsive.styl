@@ -67,17 +67,16 @@
                 font-size 18px */
 
                 font-size 16.5px
-                line-height 28px
-                color #353535
+                line-height 29px
+                color #404040
                 blockquote
                     font-size 1.1rem
+                    padding 1rem 0
                 h1, h2, h3, h4, h5, h6
                     padding 0 2rem
+                    line-height 2.66rem
                 p
                     padding 0 2rem
-                .title-index
-                    padding 0
-                    color #24292e
 
     .card
         .card-image:empty
@@ -111,6 +110,10 @@
                     font-size 1.25rem!important
                     font-weight bold
                     vertical-align text-top
+            
+            .title-index
+                padding 0
+                color #3b3b3b
 
             .categories-list
                 margin 0 2rem
@@ -272,9 +275,8 @@
         height auto
 
     .card-image-context
+        padding 0
         border-radius 0
-        padding 0 0rem 1rem
-        margin-bottom 1rem
         img
             height auto!important
             padding 0
@@ -283,12 +285,12 @@
     .context-title
         width auto!important
         height auto
-        color #24292e
         overflow unset
         line-height 2rem
         font-size 32px!important
         font-weight bold
         padding 0 2rem
+        font-family FZLTZCHJT
         &:hover
             color: #24292e
 
@@ -336,6 +338,8 @@
     .time-index
         float left
         font-size 11px
+        line-height 20px
+        color #ababab
 
     .time-context
         float left
@@ -353,9 +357,6 @@
 
     .gz-qrcode, .gz-qrcode-img
         display none
-
-    .level-end
-        margin-top 0.5rem
 
     .categories-index
         color #ababab
@@ -426,3 +427,13 @@
 
     .guanzhushengming
         padding 0 2rem
+
+    .guanzhuwo
+        width  100%
+
+    .article-video
+        width auto
+        max-height 200px
+        video
+            width 100%
+            max-height inherit
