@@ -179,7 +179,7 @@ module.exports = class extends Component {
 
                     {!index ? <div class="guanzhushengming">
                         <div class="shengming">
-                            <p>本站文章除注明转载/出处外，均为本站原创或翻译，转载前请务必署名</p>
+                            <p>本站文章除注明转载/出处外，均为本站原创或翻译，转载时请附上作者和原文链接</p>
                             <p>关注我，一起品读纵横的世界</p>
                             <p>
                                 微博：<a href="https://weibo.com/u/2821715870" target="_blank">Mr南朝客</a>，公众号：南朝客（NanChaoKe）
