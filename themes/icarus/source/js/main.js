@@ -354,14 +354,4 @@
 
     // 文章内页图片所在P标签切边
     $('.gallery-item, article img').parent('p').css('padding', '0');
-
-    // 点击视频时隐藏视频控件
-    var videoDom = $('article .content video');
-    $(videoDom).on('click', function() {
-        if (video.controls === 'controls') {
-            video.controls = false;
-        } else {
-            video.controls = 'controls';
-        }
-    })
 }(jQuery, window.moment, window.ClipboardJS, window.IcarusThemeSettings));
