@@ -1,5 +1,5 @@
 {
-  "name": "hexo-site",
+  "name": "nanchaoke",
   "version": "0.0.0",
   "private": true,
   "scripts": {
@@ -37,5 +37,17 @@
   },
   "devDependencies": {
     "hexo-related-popular-posts": "^5.0.1"
-  }
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nanchaoke/nanchaoke.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nanchaoke/nanchaoke.github.io/issues"
+  },
+  "homepage": "https://github.com/nanchaoke/nanchaoke.github.io#readme",
+  "description": ""
 }
