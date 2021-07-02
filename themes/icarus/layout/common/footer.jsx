@@ -20,15 +20,15 @@ class Footer extends Component {
                 <div class="level">
                     <div class="level-start">
                         {/*<a class="footer-logo is-block mb-2" href={siteUrl}>*/}
-                        <a class="footer-logo is-block mb-2" href="https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral" target="_blank">
+                        {/* <a class="footer-logo is-block mb-2" href="https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral" target="_blank"> */}
                             {/*logo && logo.text ? logo.text : <img src={logoUrl} alt={siteTitle} height="28" />*/}
 
-                            {logo && logo.text ? logo.text : <img class="upyun-logo" src="/img/upyun_logo.png" alt="又拍云logo" />}
-                        </a>
+                            {/* {logo && logo.text ? logo.text : <img class="upyun-logo" src="/img/upyun_logo.png" alt="又拍云logo" />} */}
+                        {/* </a> */}
                         
                         <p class="size-small">
                             <span dangerouslySetInnerHTML={{ __html: `&copy; ${siteYear} ${author || siteTitle}`}}></span>
-                            <span> | 又拍云提供图片存储</span>
+                            {/* <span> | 又拍云提供图片存储</span> */}
                             {showVisitorCounter ? <br /> : null}
                             {showVisitorCounter ? <span id="busuanzi_container_site_uv"
                                 dangerouslySetInnerHTML={{ __html: visitorCounterTitle }}></span> : null}
