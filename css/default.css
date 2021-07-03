@@ -11,7 +11,7 @@
 @font-face {
   font-family: FZLTHJT;
   font-style: normal;
-  src: url("https://upload.godread.cn/blog/common/fonts/FZLTHJT.TTF");
+  src: url("/img/FZLTHJT.TTF");
 }
 @font-face {
   font-family: FZLTZHJT;
@@ -12394,7 +12394,7 @@ figure.highlight .section {
     padding: 1rem 0;
   }
   .navbar-brand {
-    margin-left: 0rem !important;
+    margin-left: 2rem !important;
   }
   .navbar-menu {
     margin-right: -0.75rem !important;
