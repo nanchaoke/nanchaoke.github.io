@@ -12090,12 +12090,13 @@ figure.highlight .section {
 }
 @media screen and (max-width: 768px) {
   body {
-    font-family: FZLTHJT, YAMSRF, PingFang, FZLTXHJT, 'Mircosoft Yahei', 'SourceCodePro Medium', 'FZLTH Pro Light', 'FZLTH Pro ExtraLight', WQYDKZH, SYHT;
-    font-weight: lighter;
-    webkit-font-smoothing: antialiased;
-    -moz-font-smoothing: antialiased;
-    font-smoothing: antialiased;
+/*font-family FZLTHJT, YAMSRF, PingFang, FZLTXHJT, 'Mircosoft Yahei', 'SourceCodePro Medium', 'FZLTH Pro Light',  'FZLTH Pro ExtraLight', WQYDKZH, SYHT
+        font-weight lighter
+        webkit-font-smoothing antialiased
+        -moz-font-smoothing antialiased
+        font-smoothing antialiased*/
 /* font-family -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif */
+    font-family: FZLTHJT;
   }
   .columns {
     margin-left: 0;
@@ -12117,7 +12118,7 @@ figure.highlight .section {
   }
   article.article .article-meta-context {
     margin-top: 1rem !important;
-    padding: 0 2.15rem;
+    padding: 0 2.5rem;
   }
   article.article .content {
 /* font-size 17.4px
@@ -12137,12 +12138,12 @@ figure.highlight .section {
   article.article .content h4,
   article.article .content h5,
   article.article .content h6 {
-    padding: 0 2.15rem;
+    padding: 0 2.5rem;
     line-height: 2.66rem;
     font-family: FZLTZCHJT;
   }
   article.article .content p {
-    padding: 0 2.15rem;
+    padding: 0 2.5rem;
     font-size: 1.03125em;
   }
   .card .card-image:empty {
@@ -12194,7 +12195,7 @@ figure.highlight .section {
   }
   .article-tags.size-small {
     font-size: 1rem;
-    padding: 0 2.15rem;
+    padding: 0 2.5rem;
   }
   .breadcrumb:not(:last-child),
   .level:not(:last-child),
@@ -12377,7 +12378,7 @@ figure.highlight .section {
     width: auto !important;
     overflow: unset;
     line-height: 2rem;
-    padding: 0 2.15rem;
+    padding: 0 2.5rem;
   }
   .context-title:hover {
     color: #24292e;
@@ -12390,7 +12391,7 @@ figure.highlight .section {
     width: 100%;
   }
   .card-comment {
-    padding: 0 2.15rem;
+    padding: 0 2.5rem;
   }
   .card-comment .is-5 {
     padding: 1rem 0;
@@ -12517,10 +12518,10 @@ figure.highlight .section {
     margin-left: -150px;
   }
   .recommend-list {
-    padding: 0 2.15rem;
+    padding: 0 2.5rem;
   }
   .guanzhushengming {
-    padding: 0 2.15rem;
+    padding: 0 2.5rem;
   }
   .guanzhuwo {
     width: 100%;
