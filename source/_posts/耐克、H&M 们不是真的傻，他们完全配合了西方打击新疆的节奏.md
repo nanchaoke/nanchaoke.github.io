@@ -11,7 +11,8 @@ share: false
 donates: false
 author: 南朝客
 abbrlink: 8267c87e
-thumbnail: https://upload.godread.cn/blog/naikehm.jpg
+date: 2021-03-25 16:15:12
+thumbnail: https://raw.githubusercontent.com/nanchaoke/tuchuang/master/naikehm.jpg
 ---
 
 <div class="description">没有人相信他们是为了人权才当出头鸟，资本家肥厚的肚腩里从来只有算计和利益</div>

@@ -13,7 +13,8 @@ donates: false
 author: 南朝客
 priority: 0
 abbrlink: e77517f6
-thumbnail: https://upload.godread.cn/blog/twitterins.jpg
+date: 2021-01-09 16:43:16
+thumbnail: https://raw.githubusercontent.com/nanchaoke/tuchuang/master/twitterins.jpg
 ---
 
 <div class="description">前苏联领导人弋尔巴乔夫为什么暗示他知道谁策划了美国国会骚乱？</div>
@@ -136,15 +137,7 @@ Facebook 的 CEO 扎克伯格宣布，Facebook 和其旗下的 Instagram 将无�
 
 
 
-于是网上又有一种说法，说是这些别有用心的人带领示威者冲进了国会，而警卫队有几个人给示威者开门放行。（以下据说是警卫队开门的视频，自行判断）
-
-<div class="article-video">
-    <video src="https://upload.godread.cn/blog/twitterins_video_01.mp4" controls="controls" poster="https://upload.godread.cn/blog/twitterins_video_01.jpg">
-        您的浏览器不支持播放该视频，请右键获取视频链接查看。
-    </video>
-</div>
-
-
+于是网上又有一种说法，说是这些别有用心的人带领示威者冲进了国会，而警卫队有几个人给示威者开门放行。
 
 <br>
 
@@ -154,7 +147,7 @@ FBI 发誓要查清国会山暴动案，我祈祷没有华人团体介入，这�
 
 我是看戏的，但还是有点忍不住说句题外话，当佩洛西看到她的办公室坐椅上坐着一个嚣张的家伙时，她会不会觉得这是一种靓丽的风景线呢？
 
-![闯入国会大厦坐上佩洛西座椅的示威者——理查德巴内特](https://upload.godread.cn/blog/twitterins_01.jpg)
+![闯入国会大厦坐上佩洛西座椅的示威者——理查德巴内特](https://raw.githubusercontent.com/nanchaoke/tuchuang/master/twitterins_01.jpg)
 
 这家伙叫理查德巴内特，已在家乡阿肯色州被捕。
 
@@ -171,35 +164,35 @@ FBI 发誓要查清国会山暴动案，我祈祷没有华人团体介入，这�
 				<span>新年第一天，回顾2020庚子年世界12大事</span>
 				<span>mp.weixin.qq.com</span>
 			</a>
-			<img src="https://upload.godread.cn/blog/xinniandiyi.jpg"/>
+			<img src="https://raw.githubusercontent.com/nanchaoke/tuchuang/master/xinniandiyi.jpg"/>
 		</li>
         <li>
 			<a href="https://weibo.com/ttarticle/p/show?id=2309404588270804664326" target="_blank">
 				<span>被病毒意外澄清的世界秩序：左右为难的欧盟与巨型孤岛</span>
 				<span>weibo.com</span>
 			</a>
-            <img src="https://upload.godread.cn/blog/beibingduyi.jpg"/>
+            <img src="https://raw.githubusercontent.com/nanchaoke/tuchuang/master/beibingduyi.jpg"/>
 		</li>
         <li>
 			<a href="https://mp.weixin.qq.com/s?__biz=MzIzNDE5MTQ4Mw==&mid=2655637799&idx=1&sn=3c9186a8dc211c804d1a1247f5df06d0&chksm=f3475e33c430d725c8b467fb757fe476e7922fd677af63d3caa661edbfb1818dd70d050417de&token=2002906440&lang=zh_CN#rd" target="_blank">
 				<span>中欧投资协议具有国际对抗性吗？</span>
 				<span>mp.weixin.qq.com</span>
 			</a>
-			<img src="https://upload.godread.cn/blog/zhongoutouzi.jpg"/>
+			<img src="https://raw.githubusercontent.com/nanchaoke/tuchuang/master/zhongoutouzi.jpg"/>
 		</li>
         <li>
 			<a href="https://mp.weixin.qq.com/s?__biz=MzIzNDE5MTQ4Mw==&mid=2655637679&idx=1&sn=f5aefe6d28886e763b4b8faa40162ee7&chksm=f3475fbbc430d6adf6b2921b01d8336736de546ecb5fb4c38f18e8d9e6407787adbf58b1602b&token=1456400513&lang=zh_CN#rd" target="_blank">
 				<span>我顶撞了一个大V，就被拉进了小黑屋，想说一些不成熟的思考</span>
 				<span>mp.weixin.qq.com</span>
 			</a>
-			<img src="https://upload.godread.cn/blog/wodingzhuangle.jpg"/> 
+			<img src="https://raw.githubusercontent.com/nanchaoke/tuchuang/master/wodingzhuangle.jpg"/> 
 		</li>
 		<li>
 			<a href="https://mp.weixin.qq.com/s?__biz=MzIzNDE5MTQ4Mw==&mid=2655637670&idx=1&sn=7981e73e821d0d37f4419097c59c1b19&chksm=f3475fb2c430d6a403892ee948cdcdd2e3e417ffe7b7045fd272f9800878dd22a440dfec902f&token=1337939405&lang=zh_CN#rd" target="_blank">
 				<span>世界上有一种火上浇油叫“莫里森式道歉”</span>
 				<span>mp.weixin.qq.com</span>
 			</a>
-            <img src="https://upload.godread.cn/blog/shijieshangyou.jpg"/>
+            <img src="https://raw.githubusercontent.com/nanchaoke/tuchuang/master/shijieshangyou.jpg"/>
 		</li>
 	</ul>
 </div>

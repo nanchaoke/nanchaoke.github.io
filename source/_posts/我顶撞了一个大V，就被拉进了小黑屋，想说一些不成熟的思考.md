@@ -12,7 +12,8 @@ donates: false
 author: 南朝客
 priority: 0
 abbrlink: aec317c1
-thumbnail: https://upload.godread.cn/blog/wodingzhuangle.jpg
+date: 2021-01-10 18:49:18
+thumbnail: https://raw.githubusercontent.com/nanchaoke/tuchuang/master/wodingzhuangle.jpg
 ---
 
 <div class="description">大 V 对异见的态度让我很不自在。在国内语境下，大 V 有特殊的意义，尤其在今年，传统公知集体沦陷于对内的宣传上，公知横行又与大 V 密切相关，我本以为，无论是哪个阵营，有怎样不同的视角与阐述方式，都应对异见者持有保底的默契包容，这是自由与容忍的最低限度。</div>
@@ -91,31 +92,30 @@ thumbnail: https://upload.godread.cn/blog/wodingzhuangle.jpg
 				<span>世界上有一种火上浇油叫“莫里森式道歉”</span>
 				<span>mp.weixin.qq.com</span>
 			</a>
-            <img src="https://upload.godread.cn/blog/shijieshangyou.jpg"/>
+            <img src="https://raw.githubusercontent.com/nanchaoke/tuchuang/master/shijieshangyou.jpg"/>
 		</li>
         <li>
 			<a href="https://mp.weixin.qq.com/s?__biz=MzIzNDE5MTQ4Mw==&mid=2655637622&idx=1&sn=c250851530fe9ac44130b35152997491&chksm=f3475f62c430d674dfdbb691054f0a2ea7a2426c5b18598243f07648822dcec5e7c80f3da361&token=1565060228&lang=zh_CN#rd" target="_blank">
 				<span>小米高管“得屌丝者得天下”实际是群体话语权鄙视</span>
 				<span>mp.weixin.qq.com</span>
 			</a>
-            <img src="https://upload.godread.cn/blog/xiaomigaoguan.jpg"/>
+            <img src="https://raw.githubusercontent.com/nanchaoke/tuchuang/master/xiaomigaoguan.jpg"/>
 		</li>
 		<li>
 			<a href="https://mp.weixin.qq.com/s?__biz=MzIzNDE5MTQ4Mw==&mid=2655637575&idx=1&sn=288fe2e824db1966b7b47b6b986abebd&chksm=f3475f53c430d6450851585a3f6ffa2acb1993b126c9cdba5edeb02e4359700696448b0f825b&token=1565060228&lang=zh_CN#rd" target="_blank">
 				<span>公知们说要有“底线思维”，那吹嘘拜登能不能也有个底线？</span>
 				<span>mp.weixin.qq.com</span>
 			</a>
-			<img src="https://upload.godread.cn/blog/gongzhimenshuo.jpg"/>
+			<img src="https://raw.githubusercontent.com/nanchaoke/tuchuang/master/gongzhimenshuo.jpg"/>
 		</li>
         <li>
 			<a href="https://mp.weixin.qq.com/s?__biz=MzIzNDE5MTQ4Mw==&mid=2655637566&idx=1&sn=7e0f312030f7da28eb07ad986066b8aa&chksm=f3475f2ac430d63ccbf288ffee745c360985e01ecf8d8fc5a3a5da5822d177b7200ad9df9897&token=1337939405&lang=zh_CN#rd" target="_blank">
 				<span>川普大势已去，民主党执政的美国会回到原点吗？</span>
 				<span>mp.weixin.qq.com</span>
 			</a>
-			<img src="https://upload.godread.cn/blog/chuanpudashi.jpg"/> 
+			<img src="https://raw.githubusercontent.com/nanchaoke/tuchuang/master/chuanpudashi.jpg"/> 
 		</li>
 	</ul>
 </div>
-
 
 

@@ -51,7 +51,8 @@ article
             font-size: $article-font-size
             line-height: 2rem
             margin-bottom: 1rem
-            text-align unset
+            text-align justify
+            letter-spacing -0.15px
 
             h1, h2, h3, h4, h5, h6
                 font-weight bold
@@ -131,8 +132,7 @@ article
             margin auto
 
         .shengming
-            font-size 14px
-            padding 1rem 0
+            font-size 13px
             line-height 1.8
             color #a1a1a1
             &::before, &::after
@@ -141,15 +141,12 @@ article
                 height 1px
                 background #e0e0e0
                 margin-bottom 1rem
-            &::after
                 margin-top 1rem
-
             p
                 margin-bottom 0
 
 .level-item
     color #8d8d8d
-    font-size 14px
 
 .rtl
     direction: rtl
@@ -389,7 +386,8 @@ article
     margin-right 1rem
 
 .card-comment
-    width 680px
+    /*width 680px*/
+    width 780px
     margin auto
     margin-top unset
 
@@ -669,3 +667,6 @@ article
     margin-bottom 1.5rem
     .text
         margin-bottom unset!important
+
+.v[data-class=v] .vbtn
+    background #efefef!important
