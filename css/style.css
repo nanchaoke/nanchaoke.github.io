@@ -12124,6 +12124,7 @@ figure.highlight .section {
     color: #3b3b3b;
     line-height: 30px;
     font-size: 16px;
+    letter-spacing: -0.35px;
   }
   article.article .content blockquote {
     font-size: 1.1rem;
