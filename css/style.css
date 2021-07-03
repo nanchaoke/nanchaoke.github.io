@@ -12124,7 +12124,7 @@ figure.highlight .section {
                 font-size 1.28rem */
 /*color #3b3b3b*/
     line-height: 30px;
-    font-size: 16px;
+    font-size: 17px;
 /*letter-spacing -0.35px*/
     text-align: unset;
   }
@@ -12396,7 +12396,7 @@ figure.highlight .section {
     padding: 1rem 0;
   }
   .navbar-brand {
-    margin-left: 2rem !important;
+    margin-left: 1.8rem !important;
   }
   .navbar-menu {
     margin-right: -0.75rem !important;
