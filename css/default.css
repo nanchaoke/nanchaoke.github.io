@@ -10870,7 +10870,8 @@ article.article .content {
   font-size: 16px;
   line-height: 2rem;
   margin-bottom: 1rem;
-  text-align: unset;
+  text-align: justify;
+  letter-spacing: -0.15px;
 }
 article.article .content h1,
 article.article .content h2,
@@ -10955,8 +10956,7 @@ article.article .guanzhuwo {
   margin: auto;
 }
 article.article .shengming {
-  font-size: 14px;
-  padding: 1rem 0;
+  font-size: 13px;
   line-height: 1.8;
   color: #a1a1a1;
 }
@@ -10967,8 +10967,6 @@ article.article .shengming::after {
   height: 1px;
   background: #e0e0e0;
   margin-bottom: 1rem;
-}
-article.article .shengming::after {
   margin-top: 1rem;
 }
 article.article .shengming p {
@@ -10976,7 +10974,6 @@ article.article .shengming p {
 }
 .level-item {
   color: #8d8d8d;
-  font-size: 14px;
 }
 .rtl {
   direction: rtl;
@@ -11217,7 +11214,8 @@ article.article .shengming p {
   margin-right: 1rem;
 }
 .card-comment {
-  width: 680px;
+/*width 680px*/
+  width: 780px;
   margin: auto;
   margin-top: unset;
 }
@@ -11520,6 +11518,9 @@ article.article .shengming p {
 }
 .paibi .text {
   margin-bottom: unset !important;
+}
+.v[data-class=v] .vbtn {
+  background: #efefef !important;
 }
 .navbar-main {
   box-shadow: 0 1px 5px rgba(0,0,0,0.1);
