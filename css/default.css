@@ -12117,7 +12117,7 @@ figure.highlight .section {
   }
   article.article .article-meta-context {
     margin-top: 1rem !important;
-    padding: 0 2.5rem;
+    padding: 0 2.1rem;
   }
   article.article .content {
 /* font-size 17.4px
@@ -12138,12 +12138,12 @@ figure.highlight .section {
   article.article .content h4,
   article.article .content h5,
   article.article .content h6 {
-    padding: 0 2.5rem;
+    padding: 0 2.1rem;
     line-height: 2.66rem;
     font-family: FZLTZCHJT;
   }
   article.article .content p {
-    padding: 0 2.5rem;
+    padding: 0 2.1rem;
   }
   .card .card-image:empty {
 /* padding 0 0 1rem */
@@ -12186,7 +12186,7 @@ figure.highlight .section {
     font-family: FZLTZCHJT;
   }
   .card .card-content .categories-list {
-    margin: 0 2.5rem;
+    margin: 0 2.1rem;
   }
   .card + .card,
   .card + .column-right-shadow {
@@ -12194,7 +12194,7 @@ figure.highlight .section {
   }
   .article-tags.size-small {
     font-size: 1rem;
-    padding: 0 2.5rem;
+    padding: 0 2.1rem;
   }
   .breadcrumb:not(:last-child),
   .level:not(:last-child),
@@ -12377,7 +12377,7 @@ figure.highlight .section {
     width: auto !important;
     overflow: unset;
     line-height: 2rem;
-    padding: 0 2.5rem;
+    padding: 0 2.1rem;
   }
   .context-title:hover {
     color: #24292e;
@@ -12390,7 +12390,7 @@ figure.highlight .section {
     width: 100%;
   }
   .card-comment {
-    padding: 0 2.5rem;
+    padding: 0 2.1rem;
   }
   .card-comment .is-5 {
     padding: 1rem 0;
@@ -12517,10 +12517,10 @@ figure.highlight .section {
     margin-left: -150px;
   }
   .recommend-list {
-    padding: 0 2.5rem;
+    padding: 0 2.1rem;
   }
   .guanzhushengming {
-    padding: 0 2.5rem;
+    padding: 0 2.1rem;
   }
   .guanzhuwo {
     width: 100%;
