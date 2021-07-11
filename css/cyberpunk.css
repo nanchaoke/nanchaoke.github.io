@@ -10846,6 +10846,7 @@ article.article .article-tags {
 }
 article.article .article-tags {
   margin-top: 2.5rem;
+  margin-bottom: 0 !important;
 }
 article.article .article-meta {
   overflow-x: auto;
@@ -10960,6 +10961,7 @@ article.article .shengming {
   font-size: 13px;
   line-height: 1.8;
   color: #a1a1a1;
+  overflow: hidden;
 }
 article.article .shengming::before,
 article.article .shengming::after {
