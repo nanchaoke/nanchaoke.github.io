@@ -12467,8 +12467,8 @@ figure.highlight .section {
     font-size: 13px;
   }
   .shengming .guanzhu {
-    width: 100%;
-    margin-top: 1rem;
+    width: 100% !important;
+    margin-top: 1rem !important;
   }
   #toc-mask {
     z-index: 9;

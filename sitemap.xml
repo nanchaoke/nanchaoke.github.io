@@ -305,7 +305,21 @@
   </url>
   
   <url>
-    <loc>https://godread.cn/tags/%E5%85%AC%E7%9F%A5/</loc>
+    <loc>https://godread.cn/tags/%E4%B8%A4%E5%B2%B8/</loc>
+    <lastmod>2021-07-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://godread.cn/tags/%E5%8F%B0%E7%8B%AC/</loc>
+    <lastmod>2021-07-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://godread.cn/tags/%E5%8F%8D%E5%8D%8E%E8%BE%B1%E5%8D%8E/</loc>
     <lastmod>2021-07-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -333,21 +347,7 @@
   </url>
   
   <url>
-    <loc>https://godread.cn/tags/%E4%B8%A4%E5%B2%B8/</loc>
-    <lastmod>2021-07-15</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://godread.cn/tags/%E5%8F%B0%E7%8B%AC/</loc>
-    <lastmod>2021-07-15</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://godread.cn/tags/%E5%8F%8D%E5%8D%8E%E8%BE%B1%E5%8D%8E/</loc>
+    <loc>https://godread.cn/tags/%E5%85%AC%E7%9F%A5/</loc>
     <lastmod>2021-07-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -424,13 +424,6 @@
   </url>
   
   <url>
-    <loc>https://godread.cn/tags/%E6%96%B0%E5%86%A0%E7%97%85%E6%AF%92/</loc>
-    <lastmod>2021-07-15</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://godread.cn/tags/%E6%8A%97%E7%96%AB/</loc>
     <lastmod>2021-07-15</lastmod>
     <changefreq>daily</changefreq>
@@ -445,6 +438,13 @@
   </url>
   
   <url>
+    <loc>https://godread.cn/tags/%E6%96%B0%E5%86%A0%E7%97%85%E6%AF%92/</loc>
+    <lastmod>2021-07-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://godread.cn/tags/%E8%AF%9D%E8%AF%AD%E6%9D%83/</loc>
     <lastmod>2021-07-15</lastmod>
     <changefreq>daily</changefreq>
@@ -453,20 +453,6 @@
   
   <url>
     <loc>https://godread.cn/tags/%E5%85%AC%E5%85%B1%E6%9D%83%E5%8A%9B/</loc>
-    <lastmod>2021-07-15</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://godread.cn/tags/%E5%9B%BD%E4%BC%9A%E5%86%B2%E5%87%BB/</loc>
-    <lastmod>2021-07-15</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://godread.cn/tags/%E7%A4%BE%E4%BA%A4%E5%AA%92%E4%BD%93/</loc>
     <lastmod>2021-07-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -488,6 +474,20 @@
   
   <url>
     <loc>https://godread.cn/tags/%E5%90%BB/</loc>
+    <lastmod>2021-07-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://godread.cn/tags/%E5%9B%BD%E4%BC%9A%E5%86%B2%E5%87%BB/</loc>
+    <lastmod>2021-07-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://godread.cn/tags/%E7%A4%BE%E4%BA%A4%E5%AA%92%E4%BD%93/</loc>
     <lastmod>2021-07-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -536,20 +536,6 @@
   </url>
   
   <url>
-    <loc>https://godread.cn/tags/%E4%B8%96%E7%95%8C%E7%A7%A9%E5%BA%8F/</loc>
-    <lastmod>2021-07-15</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://godread.cn/tags/%E6%AC%A7%E7%9B%9F/</loc>
-    <lastmod>2021-07-15</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://godread.cn/tags/%E8%88%86%E8%AE%BA%E9%9C%B8%E5%87%8C/</loc>
     <lastmod>2021-07-15</lastmod>
     <changefreq>daily</changefreq>
@@ -565,6 +551,20 @@
   
   <url>
     <loc>https://godread.cn/tags/%E6%98%A5%E7%A7%8B/</loc>
+    <lastmod>2021-07-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://godread.cn/tags/%E4%B8%96%E7%95%8C%E7%A7%A9%E5%BA%8F/</loc>
+    <lastmod>2021-07-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://godread.cn/tags/%E6%AC%A7%E7%9B%9F/</loc>
     <lastmod>2021-07-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
