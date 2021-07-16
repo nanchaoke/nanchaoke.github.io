@@ -14,6 +14,11 @@
   src: url("/img/FZLTHJT.TTF");
 }
 @font-face {
+  font-family: PT-Serif;
+  font-style: normal;
+  src: url("/img/PT-Serif.ttf");
+}
+@font-face {
   font-family: FZLTZHJT;
   font-style: normal;
   src: url("https://upload.godread.cn/blog/common/fonts/FZLTZHJT.TTF");
@@ -10874,7 +10879,7 @@ article.article .content {
   text-align: justify;
   letter-spacing: -0.15px;
   color: #2f2f2f;
-  font-family: 'Segoe UI';
+  font-family: PT-Serif, 'Segoe UI';
 }
 article.article .content h1,
 article.article .content h2,
@@ -12107,7 +12112,7 @@ figure.highlight .section {
         -moz-font-smoothing antialiased
         font-smoothing antialiased*/
 /* font-family -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif */
-    font-family: FZLTHJT;
+    font-family: PT-Serif, FZLTHJT;
   }
   .columns {
     margin-left: 0;
