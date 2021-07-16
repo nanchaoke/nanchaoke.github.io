@@ -10874,6 +10874,7 @@ article.article .content {
   text-align: justify;
   letter-spacing: -0.15px;
   color: #2f2f2f;
+  font-family: 'Segoe UI';
 }
 article.article .content h1,
 article.article .content h2,
@@ -12138,6 +12139,7 @@ figure.highlight .section {
     font-size: 17px;
 /*letter-spacing -0.35px*/
     text-align: unset;
+    font-family: inherit;
   }
   article.article .content blockquote {
     font-size: 1.1rem;
