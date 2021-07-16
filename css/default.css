@@ -10979,10 +10979,11 @@ article.article .shengming .guanzhu {
   padding: 1rem 0;
   text-align: center;
   border-radius: 3px;
-  background: #f0f0f0;
+  background: #f7f7f7;
 }
 .level-item {
-  color: #8d8d8d;
+/* color #8d8d8d */
+  color: rgba(0,0,0,0.302);
 }
 .rtl {
   direction: rtl;
@@ -11380,13 +11381,12 @@ article.article .shengming .guanzhu {
   color: #828a92;
 }
 .yuanchuang {
-/* background #f0eef0 */
   border-radius: 3px;
   padding: 0 0.5rem 0;
   line-height: 21px;
-  background: #cecece;
-  color: #fff;
   font-size: 12px;
+/*background #cecece*/
+  background: #f0eef0;
 }
 .categories-list {
   background: #f7f7f7;
@@ -11442,7 +11442,7 @@ article.article .shengming .guanzhu {
   text-indent: 8px;
 }
 .tagname {
-  background: #f0f0f0;
+  background: #f7f7f7;
   color: #ababab;
   padding: 0 12px;
   height: 24px;
@@ -11529,7 +11529,8 @@ article.article .shengming .guanzhu {
   margin-bottom: unset !important;
 }
 .v[data-class=v] .vbtn {
-  background: #efefef !important;
+/* background #efefef!important */
+  background: #f9f9f9 !important;
 }
 .navbar-main {
   box-shadow: 0 1px 5px rgba(0,0,0,0.1);
@@ -11972,7 +11973,8 @@ figure.highlight .section {
   border-radius: 4px;
   transform: translateY(120px);
   transition: 0.4s ease opacity, 0.4s ease width, 0.4s ease transform, 0.4s ease border-radius;
-  background: #f5f5f5;
+  background: #f7f7f7;
+  z-index: 10;
 }
 #back-to-top.is-rounded {
   border-radius: 50%;
