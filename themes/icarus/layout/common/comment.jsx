@@ -20,7 +20,7 @@ module.exports = class extends Component {
                         Comment = Comment.Cacheable ? Comment.Cacheable : Comment;
                         return <Comment config={config} page={page} helper={helper} comment={comment} />;
                     } catch (e) {
-                        logger.w(`Icarus cannot load comment "${comment.type}"`);
+                        logger.w(`无法加载评论 "${comment.type}"`);
                         return null;
                     }
                 })()}
