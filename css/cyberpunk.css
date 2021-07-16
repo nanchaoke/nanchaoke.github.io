@@ -11161,7 +11161,7 @@ article.article .shengming .guanzhu {
   height: auto;
   line-height: 1.5;
   font-size: 32px !important;
-  font-family: FZLTZCHJT;
+  font-family: PT-Serif, FZLTZCHJT;
   font-weight: bold;
 }
 .article-meta-context {
@@ -12159,7 +12159,7 @@ figure.highlight .section {
   article.article .content h6 {
     padding: 0 2.1rem;
     line-height: 2.66rem;
-    font-family: FZLTZCHJT;
+    font-family: PT-Serif, FZLTZCHJT;
   }
   article.article .content p {
     padding: 0 2.1rem;
@@ -12202,7 +12202,7 @@ figure.highlight .section {
     padding: 0;
     color: #3b3b3b;
     margin-bottom: unset !important;
-    font-family: FZLTZCHJT;
+    font-family: PT-Serif, FZLTZCHJT;
   }
   .card .card-content .categories-list {
     margin: 0 2.1rem;

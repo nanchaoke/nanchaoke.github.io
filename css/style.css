@@ -482,13 +482,13 @@ button,
 input,
 select,
 textarea {
-  font-family: 'microsoft yahei';
+  font-family: PT-Serif, 'microsoft yahei';
 }
 code,
 pre {
   -moz-osx-font-smoothing: auto;
   -webkit-font-smoothing: auto;
-  font-family: 'SourceCodePro Medium', monospace, 'Microsoft YaHei', SYHT;
+  font-family: PT-Serif, 'SourceCodePro Medium', monospace, 'Microsoft YaHei', SYHT;
 }
 body {
   color: #4a4a4a;
@@ -1127,19 +1127,19 @@ a.has-text-grey-lightest:focus {
   font-weight: 700 !important;
 }
 .is-family-primary {
-  font-family: 'microsoft yahei' !important;
+  font-family: PT-Serif, 'microsoft yahei' !important;
 }
 .is-family-secondary {
-  font-family: 'microsoft yahei' !important;
+  font-family: PT-Serif, 'microsoft yahei' !important;
 }
 .is-family-sans-serif {
-  font-family: 'microsoft yahei' !important;
+  font-family: PT-Serif, 'microsoft yahei' !important;
 }
 .is-family-monospace {
   font-family: monospace !important;
 }
 .is-family-code {
-  font-family: 'SourceCodePro Medium', monospace, 'Microsoft YaHei', SYHT !important;
+  font-family: PT-Serif, 'SourceCodePro Medium', monospace, 'Microsoft YaHei', SYHT !important;
 }
 .is-block {
   display: block !important;
@@ -11160,7 +11160,7 @@ article.article .shengming .guanzhu {
   height: auto;
   line-height: 1.5;
   font-size: 32px !important;
-  font-family: FZLTZCHJT;
+  font-family: PT-Serif, FZLTZCHJT;
   font-weight: bold;
 }
 .article-meta-context {
@@ -11898,7 +11898,7 @@ figure.highlight figcaption * {
 }
 figure.highlight figcaption span {
   font-weight: 500;
-  font-family: 'SourceCodePro Medium', monospace, 'Microsoft YaHei', SYHT;
+  font-family: PT-Serif, 'SourceCodePro Medium', monospace, 'Microsoft YaHei', SYHT;
 }
 figure.highlight figcaption .level-left *:not(:last-child) {
   margin-right: 0.5em;
@@ -12158,7 +12158,7 @@ figure.highlight .section {
   article.article .content h6 {
     padding: 0 2.1rem;
     line-height: 2.66rem;
-    font-family: FZLTZCHJT;
+    font-family: PT-Serif, FZLTZCHJT;
   }
   article.article .content p {
     padding: 0 2.1rem;
@@ -12201,7 +12201,7 @@ figure.highlight .section {
     padding: 0;
     color: #3b3b3b;
     margin-bottom: unset !important;
-    font-family: FZLTZCHJT;
+    font-family: PT-Serif, FZLTZCHJT;
   }
   .card .card-content .categories-list {
     margin: 0 2.1rem;
