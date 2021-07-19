@@ -10976,8 +10976,11 @@ article.article .shengming::after {
   margin-bottom: 1rem;
   margin-top: 1rem;
 }
-article.article .shengming p {
+article.article .shengming >p:first-child {
   margin-bottom: 0;
+  border-bottom: 1px solid #ddd;
+  text-align: center;
+  color: #a6a6a6;
 }
 article.article .shengming .guanzhu {
   width: 50%;
@@ -10985,12 +10988,14 @@ article.article .shengming .guanzhu {
   margin-top: 3rem;
   padding: 1rem 0;
   text-align: center;
-  border-radius: 3px;
-  background: #f7f7f7;
+  border-radius: 10px;
+/* background #f7f7f7 */
+  background: #f6f6f1;
 }
 .level-item {
-/* color #8d8d8d */
-  color: rgba(0,0,0,0.302);
+/* color #0000004d */
+  color: #a1a1a1;
+  font-size: 13px;
 }
 .rtl {
   direction: rtl;
@@ -11074,7 +11079,6 @@ article.article .shengming .guanzhu {
 .pinglunjuli {
   max-width: 648px;
   margin: auto;
-  margin-bottom: 5rem !important;
 }
 .upyun-logo {
   height: 2rem;
@@ -11129,7 +11133,8 @@ article.article .shengming .guanzhu {
 }
 .navbar-toggle {
   position: fixed;
-  background: #fff;
+/* background white */
+  background: #f6f6f1;
   width: 100%;
 }
 .navbar-toggle-hide {
@@ -11166,9 +11171,6 @@ article.article .shengming .guanzhu {
 }
 .article-meta-context {
   margin: 1rem 0 2rem 0 !important;
-}
-.level-left-toggle {
-  font-size: 15px;
 }
 .card-index {
   width: 24%;
@@ -11242,12 +11244,17 @@ article.article .shengming .guanzhu {
 .pagination {
   clear: both;
 }
+.recommend-list {
+  width: 60%;
+  margin: auto;
+}
 .recommend-list>ul {
   margin: 0;
 }
 .recommend-list>ul li {
   list-style: none;
-  background: #eef3fc;
+/* background #eef3fc */
+  background: #f6f6f1;
   border-radius: 10px;
   overflow: hidden;
   padding: 1rem;
@@ -11387,14 +11394,6 @@ article.article .shengming .guanzhu {
   margin-right: 0.5rem;
   color: #828a92;
 }
-.yuanchuang {
-  border-radius: 3px;
-  padding: 0 0.5rem 0;
-  line-height: 21px;
-  font-size: 12px;
-/*background #cecece*/
-  background: #f0eef0;
-}
 .categories-list {
   background: #f7f7f7;
   border-radius: 8px;
@@ -11496,9 +11495,6 @@ article.article .shengming .guanzhu {
   left: 0;
   z-index: 11;
 }
-.navbar-main .container .navbar-menu {
-  margin-right: -2.4rem !important;
-}
 .mobile-qrcode {
   display: none;
 }
@@ -11538,9 +11534,6 @@ article.article .shengming .guanzhu {
 .v[data-class=v] .vbtn {
 /* background #efefef!important */
   background: #f9f9f9 !important;
-}
-.navbar-main {
-  box-shadow: none;
 }
 .navbar-main .navbar-menu,
 .navbar-main .navbar-start,
@@ -11588,11 +11581,11 @@ article.article .shengming .guanzhu {
   max-height: 1.75rem;
 }
 .navbar-brand {
-  margin-left: -12rem !important;
+  margin-left: -10.8rem !important;
 }
 .navbar > .container .navbar-menu,
 .container > .navbar .navbar-menu {
-  margin-right: -1.4rem;
+  margin-right: -1rem;
 }
 @media screen and (max-width: 768px) {
   footer.footer .level-start {
@@ -11806,6 +11799,7 @@ footer.footer .level-end .field {
 }
 .searchbox .searchbox-result-item:not(:active):not(.active) .searchbox-result-preview {
   color: #b5b5b5;
+  font-size: 13px;
 }
 .searchbox .searchbox-footer {
   padding: 0.5em 1em;
@@ -12182,9 +12176,6 @@ figure.highlight .section {
   .card .card-content .level-left {
     font-size: 1rem;
   }
-  .card .card-content .level-left-toggle {
-    font-size: 14px !important;
-  }
   .card .card-content .title {
     width: 65%;
     height: auto;
@@ -12285,7 +12276,7 @@ figure.highlight .section {
   }
   .navbar-end-new {
     position: absolute !important;
-    right: 1rem !important;
+    right: 0.8rem !important;
     top: 0.5rem;
   }
   .navbar-start-new {
@@ -12415,7 +12406,7 @@ figure.highlight .section {
     padding: 1rem 0;
   }
   .navbar-brand {
-    margin-left: 1.8rem !important;
+    margin-left: 1.6rem !important;
   }
   .navbar-menu {
     margin-right: -0.75rem !important;
@@ -12476,16 +12467,16 @@ figure.highlight .section {
   .shengming {
     font-size: 13px;
   }
+  .shengming >p:first-child {
+    text-align: left !important;
+    border: none !important;
+  }
   .shengming .guanzhu {
     width: 100% !important;
     margin-top: 1rem !important;
   }
   #toc-mask {
     z-index: 9;
-  }
-  .yuanchuang {
-    line-height: 20px;
-    padding-top: 2px;
   }
   .mobile-pwd::after {
     content: '密';
@@ -12539,6 +12530,7 @@ figure.highlight .section {
     margin-left: -150px;
   }
   .recommend-list {
+    width: 100%;
     padding: 0 2.1rem;
   }
   .guanzhushengming {
