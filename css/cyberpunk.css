@@ -11462,6 +11462,7 @@ article.article .shengming .guanzhu {
   width: 38px;
   height: 100%;
   cursor: pointer;
+  color: #c4b197;
 }
 .gz-qrcode:hover {
   background: #fafafa;
@@ -11561,6 +11562,9 @@ article.article .shengming .guanzhu {
   align-items: center;
   padding: 0 0.8rem;
   margin: 1.25rem 0.25rem;
+}
+.navbar-main .navbar-item.search {
+  color: #c4b197;
 }
 .navbar-main .navbar-item.is-active {
   background-color: transparent;
@@ -11976,6 +11980,7 @@ figure.highlight .section {
   transition: 0.4s ease opacity, 0.4s ease width, 0.4s ease transform, 0.4s ease border-radius;
   background: #f7f7f7;
   z-index: 10;
+  color: #c4b197;
 }
 #back-to-top.is-rounded {
   border-radius: 50%;
