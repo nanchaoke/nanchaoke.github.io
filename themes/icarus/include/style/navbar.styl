@@ -8,7 +8,7 @@ $navbar-item-margin-v ?= 0
 $navbar-item-margin-h ?= 0
 
 .navbar-main
-    box-shadow: $shadow
+    // box-shadow: $shadow
     // border-bottom: 1px solid #f0f0f0;
 
     .navbar-menu, .navbar-start, .navbar-end
@@ -35,6 +35,8 @@ $navbar-item-margin-h ?= 0
         align-items: center
         padding: $navbar-item-padding-v $navbar-item-padding-h-self
         margin: $navbar-item-margin-v $navbar-item-margin-h
+        &.search
+            color #C4B197
 
         &.is-active
             background-color: transparent
@@ -55,8 +57,8 @@ $navbar-item-margin-h ?= 0
         max-height: $logo-height
 
 .navbar-brand
-    margin-left -12rem!important
+    margin-left -10.8rem!important
 
 .navbar > .container .navbar-menu,
 .container > .navbar .navbar-menu
-    margin-right -1.4rem
+    margin-right -1rem

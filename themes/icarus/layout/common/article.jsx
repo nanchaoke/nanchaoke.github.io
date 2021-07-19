@@ -91,7 +91,7 @@ module.exports = class extends Component {
                         </div>
                     </div> : null}
 
-                    {!index && page.layout !== 'page' && page.categories && page.categories.length ? <div class="categories-list">
+                    {/* {!index && page.layout !== 'page' && page.categories && page.categories.length ? <div class="categories-list">
                         <div class="categories-left">
                             <span id="getCategory">收录于分类</span>
                             <span class="level-item">
@@ -120,7 +120,7 @@ module.exports = class extends Component {
                                 return categories;
                             })()}
                         </div>
-                    </div> : null}
+                    </div> : null} */}
 
                     {index ? <div class="info-line">
                         <div class="content content-index info-line-content" dangerouslySetInnerHTML={{ __html: index && page.excerpt ? page.excerpt : page.content }}></div>

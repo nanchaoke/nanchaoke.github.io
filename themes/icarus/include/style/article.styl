@@ -143,20 +143,25 @@ article
                 display block
                 margin-bottom 1rem
                 margin-top 1rem
-            p
+            >p:first-child
                 margin-bottom 0
+                border-bottom 1px solid #ddd
+                text-align center
+                color #a6a6a6
             .guanzhu
                 width 50%
                 margin auto
                 margin-top 3rem
                 padding 1rem 0
                 text-align center
-                border-radius 3px
-                background #f7f7f7
+                border-radius 10px
+                /* background #f7f7f7 */
+                background #f6f6f1
 
 .level-item
-    /* color #8d8d8d */
-    color #0000004d
+    /* color #0000004d */
+    color #a1a1a1
+    font-size 13px
 
 .rtl
     direction: rtl
@@ -243,7 +248,6 @@ article
 .pinglunjuli
     max-width 648px
     margin auto
-    margin-bottom: 5rem!important
 
 .upyun-logo
     height: 2rem
@@ -296,7 +300,8 @@ article
 
 .navbar-toggle
     position fixed
-    background white
+    /* background white */
+    background #f6f6f1
     width 100%
     
 .navbar-toggle-hide
@@ -331,9 +336,6 @@ article
 
 .article-meta-context
     margin 1rem 0 2rem 0!important
-
-.level-left-toggle
-    font-size 15px
 
 
 /* 首页改造 */
@@ -408,11 +410,14 @@ article
     clear both
 
 .recommend-list
+    width 60%
+    margin auto
     &>ul
         margin 0
         li
             list-style none
-            background #eef3fc
+            /* background #eef3fc */
+            background #f6f6f1
             border-radius 10px
             overflow hidden
             padding 1rem
@@ -542,14 +547,6 @@ article
     margin-right .5rem
     color #828a92
 
-.yuanchuang
-    border-radius 3px
-    padding 0 0.5rem 0
-    line-height 21px
-    font-size 12px
-    /*background #cecece*/
-    background #f0eef0
-
 .categories-list
     background #f7f7f7
     border-radius 8px
@@ -611,6 +608,7 @@ article
     width 38px
     height 100%
     cursor pointer
+    color #C4B197
     &:hover
         background #fafafa
         &>i
@@ -640,9 +638,6 @@ article
     bottom 0
     left 0
     z-index 11
-
-.navbar-main .container .navbar-menu
-    margin-right -2.4rem!important
 
 .mobile-qrcode
     display none
