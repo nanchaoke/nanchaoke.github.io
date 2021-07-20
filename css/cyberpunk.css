@@ -12103,6 +12103,15 @@ figure.highlight .section {
   }
 }
 @media screen and (max-width: 768px) {
+  body {
+/*font-family FZLTHJT, YAMSRF, PingFang, FZLTXHJT, 'Mircosoft Yahei', 'SourceCodePro Medium', 'FZLTH Pro Light',  'FZLTH Pro ExtraLight', WQYDKZH, SYHT
+        font-weight lighter
+        webkit-font-smoothing antialiased
+        -moz-font-smoothing antialiased
+        font-smoothing antialiased*/
+/* font-family -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif */
+    font-family: georgia, PT-Serif, FZLTHJT;
+  }
   .columns {
     margin-left: 0;
     margin-right: 0;
