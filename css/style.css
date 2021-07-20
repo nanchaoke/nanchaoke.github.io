@@ -482,13 +482,13 @@ button,
 input,
 select,
 textarea {
-  font-family: PT-Serif, 'microsoft yahei';
+  font-family: georgia, PT-Serif, 'microsoft yahei';
 }
 code,
 pre {
   -moz-osx-font-smoothing: auto;
   -webkit-font-smoothing: auto;
-  font-family: PT-Serif, 'SourceCodePro Medium', monospace, 'Microsoft YaHei', SYHT;
+  font-family: georgia, PT-Serif, 'SourceCodePro Medium', monospace, 'Microsoft YaHei', SYHT;
 }
 body {
   color: #4a4a4a;
@@ -1127,19 +1127,19 @@ a.has-text-grey-lightest:focus {
   font-weight: 700 !important;
 }
 .is-family-primary {
-  font-family: PT-Serif, 'microsoft yahei' !important;
+  font-family: georgia, PT-Serif, 'microsoft yahei' !important;
 }
 .is-family-secondary {
-  font-family: PT-Serif, 'microsoft yahei' !important;
+  font-family: georgia, PT-Serif, 'microsoft yahei' !important;
 }
 .is-family-sans-serif {
-  font-family: PT-Serif, 'microsoft yahei' !important;
+  font-family: georgia, PT-Serif, 'microsoft yahei' !important;
 }
 .is-family-monospace {
   font-family: monospace !important;
 }
 .is-family-code {
-  font-family: PT-Serif, 'SourceCodePro Medium', monospace, 'Microsoft YaHei', SYHT !important;
+  font-family: georgia, PT-Serif, 'SourceCodePro Medium', monospace, 'Microsoft YaHei', SYHT !important;
 }
 .is-block {
   display: block !important;
@@ -10874,12 +10874,10 @@ article.article .article-more .famore {
 article.article .content {
   word-wrap: break-word;
   font-size: 16px;
-  line-height: 2rem;
+  line-height: 1.6;
   margin-bottom: 1rem;
-  text-align: justify;
-  letter-spacing: -0.15px;
-  color: #2f2f2f;
-  font-family: PT-Serif, 'Segoe UI';
+  color: #121212;
+  font-family: georgia, PT-Serif, 'Segoe UI';
 }
 article.article .content h1,
 article.article .content h2,
@@ -11165,7 +11163,7 @@ article.article .shengming .guanzhu {
   height: auto;
   line-height: 1.5;
   font-size: 32px !important;
-  font-family: PT-Serif, FZLTZCHJT;
+  font-family: georgia, PT-Serif, FZLTZCHJT;
   font-weight: bold;
 }
 .article-meta-context {
@@ -11182,8 +11180,7 @@ article.article .shengming .guanzhu {
   margin-right: 0;
 }
 .card-context {
-/* width 71% */
-  width: 67.8%;
+  width: 66%;
   margin: auto;
 }
 .card-image {
@@ -11897,7 +11894,7 @@ figure.highlight figcaption * {
 }
 figure.highlight figcaption span {
   font-weight: 500;
-  font-family: PT-Serif, 'SourceCodePro Medium', monospace, 'Microsoft YaHei', SYHT;
+  font-family: georgia, PT-Serif, 'SourceCodePro Medium', monospace, 'Microsoft YaHei', SYHT;
 }
 figure.highlight figcaption .level-left *:not(:last-child) {
   margin-right: 0.5em;
@@ -12105,15 +12102,6 @@ figure.highlight .section {
   }
 }
 @media screen and (max-width: 768px) {
-  body {
-/*font-family FZLTHJT, YAMSRF, PingFang, FZLTXHJT, 'Mircosoft Yahei', 'SourceCodePro Medium', 'FZLTH Pro Light',  'FZLTH Pro ExtraLight', WQYDKZH, SYHT
-        font-weight lighter
-        webkit-font-smoothing antialiased
-        -moz-font-smoothing antialiased
-        font-smoothing antialiased*/
-/* font-family -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif */
-    font-family: PT-Serif, FZLTHJT;
-  }
   .columns {
     margin-left: 0;
     margin-right: 0;
@@ -12137,12 +12125,8 @@ figure.highlight .section {
     padding: 0 2.1rem;
   }
   article.article .content {
-/* font-size 17.4px
-                font-size 1.28rem */
-/*color #3b3b3b*/
-    line-height: 30px;
+    line-height: 1.6;
     font-size: 17px;
-/*letter-spacing -0.35px*/
     text-align: unset;
     font-family: inherit;
   }
@@ -12158,7 +12142,7 @@ figure.highlight .section {
   article.article .content h6 {
     padding: 0 2.1rem;
     line-height: 2.66rem;
-    font-family: PT-Serif, FZLTZCHJT;
+    font-family: georgia, PT-Serif, FZLTZCHJT;
   }
   article.article .content p {
     padding: 0 2.1rem;
@@ -12198,7 +12182,7 @@ figure.highlight .section {
     padding: 0;
     color: #3b3b3b;
     margin-bottom: unset !important;
-    font-family: PT-Serif, FZLTZCHJT;
+    font-family: georgia, PT-Serif, FZLTZCHJT;
   }
   .card .card-content .categories-list {
     margin: 0 2.1rem;
